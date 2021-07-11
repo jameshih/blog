@@ -1,0 +1,5 @@
+_site/
+script/
+.sass-cache/
+the-plain.gemspec
+Gemfile.lock
