@@ -29,14 +29,14 @@ The visualization has a simple collision detection system built in, which it mea
 
 ### Code
 
-#### main.cpp
+#### master.cpp
 
 ```cpp
 #include "ofMain.h"
 #include "ofApp.h"
 
 //========================================================================
-int main( ){
+int master( ){
 	ofSetupOpenGL(1024,768,OF_WINDOW);			// <-------- setup the GL context
 
 	// this kicks off the running of my app

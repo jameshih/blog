@@ -16,7 +16,7 @@ My concept for the project is to create a simple virtual pet similar to the Tama
 
 ### Schematic Diagram
 
-![SD](https://github.com/jameshih/jameshih.github.io/blob/master/assets/vpet/schematic-2i7sttu-1024x733.png?raw=true)
+![SD](https://github.com/jameshih/jameshih.github.io/blob/main/assets/vpet/schematic-2i7sttu-1024x733.png?raw=true)
 <br><br>
 
 ### Code
@@ -307,15 +307,15 @@ void interface() {
 
 Low Health Warning
 
-![1](https://github.com/jameshih/jameshih.github.io/blob/master/assets/vpet/IMG_2548-17kba5z-e1448962969240.jpg?raw=true)
+![1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/vpet/IMG_2548-17kba5z-e1448962969240.jpg?raw=true)
 
 Pet is not happy (need to play with it more)
 
-![2](https://github.com/jameshih/jameshih.github.io/blob/master/assets/vpet/IMG_2549-1mayht9-e1448962925118.jpg?raw=true)
+![2](https://github.com/jameshih/jameshih.github.io/blob/main/assets/vpet/IMG_2549-1mayht9-e1448962925118.jpg?raw=true)
 
 Pet died
 
-![3](https://github.com/jameshih/jameshih.github.io/blob/master/assets/vpet/IMG_0211-1viq6n4-e1448962987425.jpg?raw=true)
+![3](https://github.com/jameshih/jameshih.github.io/blob/main/assets/vpet/IMG_0211-1viq6n4-e1448962987425.jpg?raw=true)
 
 ### Video
 
