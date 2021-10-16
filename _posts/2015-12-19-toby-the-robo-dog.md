@@ -52,7 +52,7 @@ servo enclosure test 3
 
 <script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/master/Progress 3D print STL/servo enclosure/servo enclosure test 3.stl"></script>
 
-<br><br>
+<br>
 Then I began to work on the robot’s legs
 
 <center>
