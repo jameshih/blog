@@ -23,37 +23,75 @@ I connected all four servos to the Arduino and started to model and 3d print som
 
 <br><br>
 
+<center>
+<div>
+
 servo enclosure test 1
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/servo enclosure/servo enclosure test 1.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230312e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+1.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#89037356-f604-4751-90f6-cb68917ceed5"></iframe>
+</center>
+
+<center>
+<div>
 
 servo enclosure test 2
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/servo enclosure/servo enclosure test 2.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230322e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+2.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#ed497055-7ea9-4bd4-94b7-145c816142ad"></iframe>
+</center>
+
+<center>
+<div>
 
 servo enclosure test 3
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/servo enclosure/servo enclosure test 3.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230332e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+3.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#f512988f-714d-4a96-9d8e-f05e3453a361"></iframe>
+</center>
 
+<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/master/Progress 3D print STL/servo enclosure/servo enclosure test 3.stl"></script>
+
+<br><br>
 Then I began to work on the robot’s legs
+
+<center>
+<div>
 
 leg test 1
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/leg/leg test.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c6567253230746573742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#d00179f1-f226-4dc4-a5c4-4f934ae333b8"></iframe>
+</center>
+
+<center>
+<div>
 
 leg test 2 left
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/leg/leg test 2 left.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c656725323074657374253230322532306c6566742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test+2+left.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#33f31ff0-75c3-492f-bff0-1916fa3a1f39"></iframe>
+</center>
+
+<center>
+<div>
 
 leg test 2 right
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/leg/leg test 2 right.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c6567253230746573742532303225323072696768742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test+2+right.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#ee7893fd-79e4-4f0f-a132-c7adbcae45ab"></iframe>
+</center>
 
 After finishing the basic components, I put together an unibody frame that can hold all servos while carrying an Arduino board.
 
+<center>
+<div>
+
 Unibody frame
 
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/main/Progress 3D print STL/body frame/robot unibody enclosure test 1.stl"></script>
+</div>
+<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f626f64792532306672616d652f726f626f74253230756e69626f6479253230656e636c6f7375726525323074657374253230312e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fbody+frame%2Frobot+unibody+enclosure+test+1.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#8a726a3a-6bfe-4d3e-ad42-ade31de49d72"></iframe>
+</center>
 
 I connected all the essential parts and wrote the Arduino program for the robot to walk.
 
