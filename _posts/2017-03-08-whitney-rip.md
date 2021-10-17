@@ -190,7 +190,7 @@ done
 
 ### Art Piece Data
 
-[view all](https://raw.githubusercontent.com/jameshih/18154_shades_of_whitney/main/leaks/data.json)
+[view all](https://raw.githubusercontent.com/jameshih/18154_shades_of_whitney/master/leaks/data.json)
 
 ```json
 [
