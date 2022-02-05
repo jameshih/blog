@@ -17,4 +17,4 @@ This user is exploring nihilism.<br/>
 This user could be watching you from the back now.<br/>
 </p>
 
-This user wasted too much time to edit this page, so make sure you follow James on <a style="color: #000; text-decoration: underline;" href="https://twitter.com/jackie_james">Twitter</a>.
+This user wasted too much time editing this page, so make sure you follow James on <a style="color: #000; text-decoration: underline;" href="https://twitter.com/jackie_james">Twitter</a>.
