@@ -18,7 +18,7 @@ A touch bar widget for crypto currency price (Bitcoin, Ethereum, and Litecoin)
 
 ### Installation
 
-Launch BetterTouchBarTool and go to Preferences, click Manage Presets ,and import touchbar_crypto.json into BetterTouchBarTool. Enjoy!
+Launch BetterTouchBarTool and go to Preferences, click Manage Presets, and import touchbar_crypto.json into BetterTouchBarTool. Enjoy!
 
 ### Configuration
 
