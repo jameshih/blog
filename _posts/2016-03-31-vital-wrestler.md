@@ -7,9 +7,9 @@ updated: 2016-03-31 07:16
 
 ### Don't smoke. It's bad for you.
 
-Many of my friends are heavy smokers. I had been trying to help them quit smoke for awhile, telling them how bad smoking influences physical abilities. They seemed to be not taking my advice seriously, so I decided to make a device that would help my friends realize how bad smoking is.
+Many of my friends are heavy smokers. I had been trying to help them quit smoking for awhile, telling them how bad smoking influences physical abilities. They seemed to be not taking my advice seriously, so I decided to make a device that would help my friends realize how bad smoking is.
 
-When I was running cross country in high school, the coach would brought us balloons and had a competition once a month. Whoever pops the ballon first or has the biggest balloon when the time is up can take the day off. We called the competition “vital wrestling.” I took the idea as an inspiration for my midterm and I decided to make an interactive wrestling statue that lets two players compete by blowing into the fans, and whoever pushes the other player’s hand down wins the game.
+When I was running cross country in high school, the coach would bring us balloons and had a competition once a month. Whoever popped the ballon first or had the biggest balloon when the time was up could take the day off. We called the competition “vital wrestling.” I took the idea as an inspiration for my midterm and decided to make an interactive wrestling machine which two players compete by blowing into the fans, and whoever pushes the other player’s hand down wins the game.
 <br><br><br>
 ![Concept](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/vital-wrestling-18a9vqu-1024x511.png?raw=true)
 <br><br><br>
