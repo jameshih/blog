@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: jameshih.com
-Token: 46bab7b98b1e194adf0c1a386d3036e9b4d82bbe7f63464b2e6ceecfb545fdff
