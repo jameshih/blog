@@ -9,7 +9,7 @@ updated: 2017-03-08 19:21
 
 The project was to build a web scraper and get as much data as possible from anywhere, so I wrote a scraper to get all the available art piece from Whitney Museum of American Art.
 
-Click Here to see the [Leaks](https://shih.app/18154_shades_of_whitney/white.html) / [Full Archive](https://shih.app/18154_shades_of_whitney/index.html)
+Click Here to see the [Leaks](https://portfolio.shih.app/18154_shades_of_whitney/white.html) / [Full Archive](https://portfolio.shih.app/18154_shades_of_whitney/index.html)
 
 ### The Hack
 

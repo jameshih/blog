@@ -8,7 +8,7 @@ layout: null
     <description>{{ site.description }}</description>
     <link>{{ site.baseurl | prepend: site.url }}</link>
     <image>
-    <url>https://shih.app/assets/favicon.png</url>
+    <url>https://portfolio.shih.app/assets/favicon.png</url>
     <title>{{ site.title }}</title>
     <link>{{ site.baseurl | prepend: site.url }}</link>
     <width>32</width>
