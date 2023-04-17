@@ -16,7 +16,7 @@ Click Here to see the [Leaks](https://portfolio.shih.app/18154_shades_of_whitney
 ```
 Scraping Logs
 
-found whitney image url - http://collectionimages.whitney.org/standard/176757/largepage.jpg
+found whitney image url - https://collectionimages.whitney.org/standard/176757/largepage.jpg
 seems to be randomized number naming
 wrote a bash script to download all images by running numbers from 1 to 300000 (./rip.sh)
 divided the work load into three days since the progress took too long to complete
@@ -24,9 +24,9 @@ divided the work load into three days since the progress took too long to comple
 obtained a total of 18154 folders, 387.2 MB, with number naming of the image as the folder name
 
 found an easier way to scrape whitney's collection
-they index their objects with - http://collection.whitney.org/object/(number)
+they index their objects with - https://collection.whitney.org/object/(number)
 plugged in the total number of items, 18154, obtained from the previous process
-http://collection.whitney.org/object/18154
+https://collection.whitney.org/object/18154
 
 realized that the previous process missed one item
 
@@ -46,7 +46,7 @@ saving data to data.json file with node module - jsonfile
 
 discovered a problem with the node scraping tool,
 found out that whitney rendered some pages with a special vm binding structure
-that prevents my node scraping tool from getting the html elements (ex:http://collection.whitney.org/object/9)
+that prevents my node scraping tool from getting the html elements (ex:https://collection.whitney.org/object/9)
 
 "<div id="main-webapp">
 <noscript>
@@ -77,7 +77,7 @@ Since I have too many images, and the browser cannot handle the workload, so I d
 inspired by Fifty Shades of Grey, I created 18154 Shades of Whitney with a show me button
 when the button is clicked the site will show you one shade of whitney from the 18154 shades.
 
-found error - http://collectionimages.whitney.org/standard/13663/largepage.jpg whitney took out access to this image from the public domain.
+found error - https://collectionimages.whitney.org/standard/13663/largepage.jpg whitney took out access to this image from the public domain.
 
 “Forbidden
 
@@ -113,7 +113,7 @@ lupus(13620, 18156, function (n) {
   request(
     {
       method: "GET",
-      url: "http://collection.whitney.org/object/" + n,
+      url: "https://collection.whitney.org/object/" + n,
     },
     function (err, response, body) {
       if (err) return console.error(err);
@@ -182,7 +182,7 @@ lupus(13620, 18156, function (n) {
 for i in {194876..300000}
 
 do
-wget http://collectionimages.whitney.org/standard/$i/largepage.jpg -P ./img/\$i
+wget https://collectionimages.whitney.org/standard/$i/largepage.jpg -P ./img/\$i
 
 done
 
@@ -196,7 +196,7 @@ done
 [
   {
     "id": 3586,
-    "img": "http://collectionimages.whitney.org/standard/102386/largepage.jpg",
+    "img": "https://collectionimages.whitney.org/standard/102386/largepage.jpg",
     "artist": "Pamela Bianco (1906-1995)",
     "title": "Zinnias",
     "date": "1927",
@@ -208,7 +208,7 @@ done
   },
   {
     "id": 4129,
-    "img": "http://collectionimages.whitney.org/standard/102387/largepage.jpg",
+    "img": "https://collectionimages.whitney.org/standard/102387/largepage.jpg",
     "artist": "Emil Ganso (1895-1941)",
     "title": "Hilda #2",
     "date": "c. 1930",
@@ -220,7 +220,7 @@ done
   },
   {
     "id": 4135,
-    "img": "http://collectionimages.whitney.org/standard/102388/largepage.jpg",
+    "img": "https://collectionimages.whitney.org/standard/102388/largepage.jpg",
     "artist": "Emil Ganso (1895-1941)",
     "title": "Still Life With Bottle",
     "date": "1930",
