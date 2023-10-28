@@ -12,11 +12,11 @@ gtag('config', '{{ site.google_analytics }}');
 {% endif %}
 
 <meta charset="utf-8">
-{%seo%}
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+{%seo%}
 
-{% if page.title %}
+<!-- {% if page.title %}
 <title>{{ page.title }} · {{ site.title }}</title>
 {% else %}
 <title>{{ site.title }}</title>
@@ -61,7 +61,7 @@ gtag('config', '{{ site.google_analytics }}');
   {% for tag in page.tags %}
   <meta content="{{ tag }}" property="article:tag">
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
 <link rel="icon" href="{{ "/assets/favicon.png" | prepend: site.baseurl | prepend: site.url }}">
 <link rel="apple-touch-icon" href="{{ "/assets/touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
