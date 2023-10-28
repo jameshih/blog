@@ -7,6 +7,9 @@ image: https://shih.app/blog/assets/m1/png
 author: "James Shih"
 logo: https://avatars0.githubusercontent.com/u/9959168?v=://avatars0.githubusercontent.com/u/9959168?v=4
 locale: en_US
+twitter:
+  username: shih_app
+  twitter: summary
 
 # Site Settings
 url: https://shih.app # main url
