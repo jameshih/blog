@@ -7,10 +7,9 @@ layout: default
     <h1 class="title">{{ page.title }}</h1>
     <time class="code">{{ page.date | date: '%B %-d, %Y' }}</time>
   </div>
-
   <div class="divider"></div>
-
   {{ content }}
+  <div class="divider"></div>
 </article>
 
 <!-- <div class="page-navigation code">
@@ -24,7 +23,7 @@ layout: default
     <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{page.previous.title}}">&gt;&gt;</a>
   {% endif %}
 </div> -->
-<div class="divider"></div>
+
 <section>
   <!--{% for post in site.posts %}-->
   <!--{% unless post.next %}-->
