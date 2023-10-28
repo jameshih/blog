@@ -22,7 +22,6 @@ gtag('config', '{{ site.google_analytics }}');
 {% endif %}
 
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-{%seo%}
 
 <meta content="{{ site.title }}" property="og:site_name">
 {% if page.title %}
@@ -74,3 +73,5 @@ gtag('config', '{{ site.google_analytics }}');
 {% endif %}
 
 </script>
+
+{%seo%}
