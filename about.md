@@ -1,6 +1,5 @@
 ---
 layout: page
-url: https://shih.app/blog/about
 title: About
 ---
 
