@@ -1,9 +1,12 @@
 # Site Info
 title: "James Shih"
 repository: jameshih/blog
+tagline: "Blog"
 description: "My name is James Shih. Checkout my personal site."
+image: https://shih.app/blog/assets/m1/png
 author: "James Shih"
 logo_url: https://avatars0.githubusercontent.com/u/9959168?v=://avatars0.githubusercontent.com/u/9959168?v=4
+locale: en_US
 
 # Site Settings
 url: https://shih.app # main url
