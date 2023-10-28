@@ -3,7 +3,7 @@ title: OMG Hide and Seek 🌟
 updated: 2023-09-12 15:30
 ---
 
-Built a Roblox game for fun 😊
+Built a Roblox hide and seek game for fun 😊
 
 [Link](https://www.roblox.com/games/14763929968/OMG-Hide-and-Seek)
 
