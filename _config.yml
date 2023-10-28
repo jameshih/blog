@@ -1,48 +1,44 @@
 # Site Info
-title:              "James Shih"
-description:        "My name is James Shih. Checkout my personal site."
-author_name:        "James Shih" 
-logo_url:           https://avatars0.githubusercontent.com/u/9959168?v=://avatars0.githubusercontent.com/u/9959168?v=4 
+title: "James Shih"
+description: "My name is James Shih. Checkout my personal site."
+author_name: "James Shih"
+logo_url: https://avatars0.githubusercontent.com/u/9959168?v=://avatars0.githubusercontent.com/u/9959168?v=4
 
 # Site Settings
-url:                https://portfolio.shih.app # main url
-baseurl:           
-permalink:          /:title # Post permalink
-timezone:          America/Austin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to 'false' to disable
+url: https://blog.shih.app # main url
+baseurl:
+permalink: /:title # Post permalink
+timezone: America/Austin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax: true # enables support for mathjax - set to 'false' to disable
 
 # Site Build
-highlighter:        rouge
-markdown:           kramdown
+highlighter: rouge
+markdown: kramdown
 kramdown:
-    input:          GFM
+  input: GFM
 sass:
-    style:          :compressed
+  style: :compressed
 
 # Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+include: ["robots.txt"]
+exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
 defaults:
-  -
-    scope:
-      path:         ""
+  - scope:
+      path: ""
     values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
+      layout: "null"
+  - scope:
+      type: "pages"
     values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
+      layout: "page"
+  - scope:
+      type: "posts"
     values:
-      layout:       "post"
+      layout: "post"
 
 # Google analytics
 google_analytics: G-MKEB791QY8
-      

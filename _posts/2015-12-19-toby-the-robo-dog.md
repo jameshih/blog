@@ -7,7 +7,7 @@ updated: 2015-12-19 05:11
 
 ### Too lazy to buy your pet food? Why not get a robot dog.
 
-The project is a continuation of [Mini Virtual Pet](https://portfolio.shih.app/mini-virtual-pet). My goal for the project is to create a physical robot dog that one can interact with using a desktop application based on the mini virtual pet's interface and gameplay.
+The project is a continuation of [Mini Virtual Pet](https://blog.shih.app/mini-virtual-pet). My goal for the project is to create a physical robot dog that one can interact with using a desktop application based on the mini virtual pet's interface and gameplay.
 
 ### Build Process
 
