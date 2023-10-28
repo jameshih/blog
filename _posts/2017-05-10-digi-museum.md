@@ -1,5 +1,6 @@
 ---
 title: digiMuseum 🖼️
+url: https://shih.app/blog/digi-museum
 updated: 2017-05-10 21:18
 ---
 

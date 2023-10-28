@@ -1,5 +1,6 @@
 ---
 title: Crypto TouchBar ₿
+url: https://shih.app/blog/crypto-touchbar
 updated: 2017-12-10 02:30
 ---
 

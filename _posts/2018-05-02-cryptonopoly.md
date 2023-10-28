@@ -1,5 +1,6 @@
 ---
 title: Cryptonopoly 🎩
+url: https://shih.app/blog/cryptonopoly
 updated: 2018-05-02 15:09
 ---
 

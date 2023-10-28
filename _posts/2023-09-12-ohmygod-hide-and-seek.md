@@ -1,5 +1,6 @@
 ---
 title: OMG Hide and Seek 🌟
+url: https://shih.app/blog/ohmygod-hide-and-seek
 updated: 2023-09-12 15:30
 ---
 

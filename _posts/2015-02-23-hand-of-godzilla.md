@@ -1,5 +1,6 @@
 ---
 title: Hand of Godzilla 🦖
+url: https://shih.app/blog/hand-of-godzilla
 updated: 2015-02-23 12:03
 ---
 
