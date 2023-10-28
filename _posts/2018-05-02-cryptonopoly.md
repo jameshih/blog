@@ -143,9 +143,9 @@ Question cards are blockchain Trivia questions that players will have to draw an
 <br><br>
 The file below contains the full list of questions and answers
 <br>
-<a href="https://github.com/jimmyadg/Cryptonopoly/blob/master/questions/blockchain_trivia_questions.txt">Blockchain Trivia Questions</a>
+<a href="https://shih.app/blog/assets/cryptonopoly/txt/blockchain_trivia_questions.txt">Blockchain Trivia Questions</a>
 
-<a href="https://github.com/jimmyadg/Cryptonopoly/blob/master/questions/answer_key.txt">Answer Key</a>
+<a href="https://shih.app/blog/assets/cryptonopoly/txt/answer_key.txt">Answer Key</a>
 
 <br><br>
 
@@ -160,7 +160,7 @@ Players will have to draw an info card as the first move after each dice throw. 
 <br><br>
 The file below contains the full list of questions and answers
 <br>
-<a href="https://github.com/jimmyadg/Cryptonopoly/blob/master/questions/info.txt">Info List</a>
+<a href="https://shih.app/blog/assets/cryptonopoly/txt/info.txt">Info List</a>
 
 <br><br>
 
