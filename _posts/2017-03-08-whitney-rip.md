@@ -3,7 +3,7 @@ title: WhitneyRip 👾
 updated: 2017-03-08 19:21
 ---
 
-![Crash](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrip/crash.png?raw=true)
+![Crash](https://shih.app/blog/assets/wrip/crash.png)
 
 ### Sorry I crashed Whitney's website
 
@@ -87,11 +87,11 @@ You don't have permission to access /standard/13663/largepage.jpg on this server
 
 #### Scraping with node server
 
-![node](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrip/node_scrape.png?raw=true)
+![node](https://shih.app/blog/assets/wrip/node_scrape.png)
 
 #### Scraping with bash scripe
 
-![bash](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrip/bash_scrape.png?raw=true)
+![bash](https://shih.app/blog/assets/wrip/bash_scrape.png)
 
 ### Code
 

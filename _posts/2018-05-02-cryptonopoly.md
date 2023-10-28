@@ -8,7 +8,7 @@ updated: 2018-05-02 15:09
 <h4> Multiplayer Cryptocurrency Game</h4>
 </center>
 
-![b](https://github.com/jameshih/Cryptonopoly/blob/master/photos/jpg/banner.jpg?raw=true)
+![b](https://github.com/jameshih/Cryptonopoly/blob/master/photos/jpg/banner.jpg)
 
 <h2>Abstract</h2>
 

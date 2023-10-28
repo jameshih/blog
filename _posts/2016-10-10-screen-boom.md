@@ -4,14 +4,14 @@ updated: 2016-10-10 10:10
 ---
 
 <p align="center">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/eagle.png?raw=true" width="280">
+<img src="https://shih.app/blog/assets/sboom/eagle.png" width="280">
 </p>
 
 ### Big Brother did't force you to watch
 
 My concept for this project started from the electronic usage data that I had collected for nine days at the beginning of this school year. I created a visualization that would turn my electronic usage time of each application into an atom, the more the electrons, the longer the electronic usage duration is. By making this visualization, my intension was to imagine how would the atoms of our brain cells look like, if computers hadn’t become a majority of our working routine.
 <br><br><br>
-![Atom](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/2.gif?raw=true)
+![Atom](https://shih.app/blog/assets/sboom/2.gif)
 <br><br><br>
 
 #### ScreenBOOM
@@ -24,26 +24,26 @@ What will you do if you can only use any electronic gadget for a limited amount 
 
 #### First prototype on a breadboard
 
-![p1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/p1.jpg?raw=true)
+![p1](https://shih.app/blog/assets/sboom/p1.jpg)
 
 #### Second prototype on cardboard
 
-![f1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/f1.jpg?raw=true)
-![f2](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/f2.jpg?raw=true)
+![f1](https://shih.app/blog/assets/sboom/f1.jpg)
+![f2](https://shih.app/blog/assets/sboom/f2.jpg)
 
 #### Testing out the second prototype
 
 Set time
 
-![t1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/t1.jpg?raw=true)
+![t1](https://shih.app/blog/assets/sboom/t1.jpg)
 
 Counting down
 
-![t2](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/t2.jpg?raw=true)
+![t2](https://shih.app/blog/assets/sboom/t2.jpg)
 
 Game over
 
-![t3](https://github.com/jameshih/jameshih.github.io/blob/main/assets/sboom/t3.jpg?raw=true)
+![t3](https://shih.app/blog/assets/sboom/t3.jpg)
 
 ### Code
 

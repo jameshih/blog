@@ -3,7 +3,7 @@ title: Vital Wrestler 💨
 updated: 2016-03-31 07:16
 ---
 
-![Render](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0864-2i0jvj7-1024x768.jpg?raw=true)
+![Render](https://shih.app/blog/assets/wrestle/IMG_0864-2i0jvj7-1024x768.jpg)
 
 ### Don't smoke. It's bad for you.
 
@@ -11,12 +11,12 @@ Many of my friends are heavy smokers. I had been trying to help them quit smokin
 
 When I was running cross country in high school, the coach would bring us balloons and had a competition once a month. Whoever popped the ballon first or had the biggest balloon when the time was up could take the day off. We called the competition “vital wrestling.” I took the idea as an inspiration for my midterm and decided to make an interactive wrestling machine which two players compete by blowing into the fans, and whoever pushes the other player’s hand down wins the game.
 <br><br><br>
-![Concept](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/vital-wrestling-18a9vqu-1024x511.png?raw=true)
+![Concept](https://shih.app/blog/assets/wrestle/vital-wrestling-18a9vqu-1024x511.png)
 <br><br><br>
 
 ### Schematic Diagram
 
-![SD](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/vital-wrestling-18aa1ba-1024x654.png?raw=true)
+![SD](https://shih.app/blog/assets/wrestle/vital-wrestling-18aa1ba-1024x654.png)
 <br><br>
 
 ### Code
@@ -317,26 +317,26 @@ void debug(){
 
 When I got the pc fans, I spent a lot of time searching online for a guide that tells me how to use the fans as analog read devices for the Arduino. I didn’t find any, so I just plugged the power into A10 and A1 and ground to ground and they turned out to be working like regular analog devices and they print out larger number as you blow on them.
 
-![pc](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0838-1litvt6.jpg?raw=true)
+![pc](https://shih.app/blog/assets/wrestle/IMG_0838-1litvt6.jpg)
 
 I figured that one LED for each player wouldn’t be bright enough to represent the game play, so I soldered three LEDs together to form a brighter indicator.
 
-![leds](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0844-1wpl8s7-e1459434477564-768x1024.jpg?raw=true)
+![leds](https://shih.app/blog/assets/wrestle/IMG_0844-1wpl8s7-e1459434477564-768x1024.jpg)
 
 I added a buzzer to play the game start sounds, winning sounds, and the restart sounds.
 
-![buzz](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0845-1vwv9zx-e1459434625388-768x1024.jpg?raw=true)
+![buzz](https://shih.app/blog/assets/wrestle/IMG_0845-1vwv9zx-e1459434625388-768x1024.jpg)
 
 #### Laser cutting the case.
 
-![1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0856-sx0b33.jpg?raw=true)
-![2](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0857-10fy5kl.jpg?raw=true)
+![1](https://shih.app/blog/assets/wrestle/IMG_0856-sx0b33.jpg)
+![2](https://shih.app/blog/assets/wrestle/IMG_0857-10fy5kl.jpg)
 
 #### Putting everything together.
 
-![4](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0858-20fc6mt.jpg?raw=true)
+![4](https://shih.app/blog/assets/wrestle/IMG_0858-20fc6mt.jpg)
 
-![5](https://github.com/jameshih/jameshih.github.io/blob/main/assets/wrestle/IMG_0859-1t1e48d.jpg?raw=true)
+![5](https://shih.app/blog/assets/wrestle/IMG_0859-1t1e48d.jpg)
 
 ### Video
 

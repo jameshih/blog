@@ -3,7 +3,7 @@ title: Toby the Robo Dog 🐶
 updated: 2015-12-19 05:11
 ---
 
-![Toby](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/IMG_0226-15fzuu7.jpg?raw=true)
+![Toby](https://shih.app/blog/assets/toby/IMG_0226-15fzuu7.jpg)
 
 ### Too lazy to buy your pet food? Why not get a robot dog.
 
@@ -17,8 +17,8 @@ I connected all four servos to the Arduino and started to model and 3d print som
 <br><br>
 
 <center>
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/s1.jpg?raw=true" width="300">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/s2.jpg?raw=true" width="300">
+<img src="https://shih.app/blog/assets/toby/s1.jpg" width="300">
+<img src="https://shih.app/blog/assets/toby/s2.jpg" width="300">
 </center>
 
 <br><br>
@@ -96,10 +96,10 @@ Unibody frame
 I connected all the essential parts and wrote the Arduino program for the robot to walk.
 
 <center>
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/1.jpg?raw=true" width="220">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/2.jpg?raw=true" width="220">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/3.jpg?raw=true" width="220">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/4.jpg?raw=true" width="220">
+<img src="https://shih.app/blog/assets/toby/1.jpg" width="220">
+<img src="https://shih.app/blog/assets/toby/2.jpg" width="220">
+<img src="https://shih.app/blog/assets/toby/3.jpg" width="220">
+<img src="https://shih.app/blog/assets/toby/4.jpg" width="220">
 </center>
 
 #### Test Walk
@@ -108,15 +108,15 @@ I connected all the essential parts and wrote the Arduino program for the robot 
 
 I added an ultrasonic distance sensor so that users can physically interact with the robot.
 
-![t1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/IMG_0231-17um6ht-768x1024.jpg?raw=true)
+![t1](https://shih.app/blog/assets/toby/IMG_0231-17um6ht-768x1024.jpg)
 
 I looked up many methods to communicate with the Arduino using my laptop and found that bluetooth is the most efficient one.
 
-![t2](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/IMG_0287-1wyk153-768x1024.jpg?raw=true)
+![t2](https://shih.app/blog/assets/toby/IMG_0287-1wyk153-768x1024.jpg)
 
 I started to work on a virtual interface for user to control the robot via their computers. I took the design concept from a [tamagochi game](https://github.com/jameshih/virtual-pet) that I made before.
 
-![i1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/i1.png?raw=true)
+![i1](https://shih.app/blog/assets/toby/i1.png)
 
 There are two indicators, “heart” and “happy face”.
 
@@ -126,28 +126,28 @@ Happy face indicates the mood of the pet; the yellow face will turn red, showing
 
 There are two options on the home page, FEED and REMOTE
 
-![i2](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/i2.png?raw=true)
+![i2](https://shih.app/blog/assets/toby/i2.png)
 
 FEED lets the user to choose what to feed the pet (milk, apple ,or meat).
 
 <center>
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/f1.png?raw=true" width="200">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/f2.png?raw=true" width="200">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/f3.png?raw=true" width="200">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/b1.png?raw=true" width="200">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/b2.png?raw=true" width="200">
-<img src="https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/b3.png?raw=true" width="200">
+<img src="https://shih.app/blog/assets/toby/f1.png" width="200">
+<img src="https://shih.app/blog/assets/toby/f2.png" width="200">
+<img src="https://shih.app/blog/assets/toby/f3.png" width="200">
+<img src="https://shih.app/blog/assets/toby/b1.png" width="200">
+<img src="https://shih.app/blog/assets/toby/b2.png" width="200">
+<img src="https://shih.app/blog/assets/toby/b3.png" width="200">
 </center>
 
 REMOTE lets the player control the robot
-![r1](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/r1.png?raw=true)
+![r1](https://shih.app/blog/assets/toby/r1.png)
 
 The robot is physically interactive outside of the REMOTE tap, meaning that it will response to the user automatically.
 
 When on the REMOTE page, the user can press S on the keyboard to make the robot sit, U to make the robot stand, and D to lay the robot down.
 
 If health gets to zero the pet will die and the robot will show dead.
-![d](https://github.com/jameshih/jameshih.github.io/blob/main/assets/toby/d.png?raw=true)
+![d](https://shih.app/blog/assets/toby/d.png)
 
 ### Robot Code
 

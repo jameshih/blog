@@ -7,7 +7,7 @@ updated: 2017-12-10 02:30
 
 A touch bar widget for crypto currency price (Bitcoin, Ethereum, and Litecoin)
 
-![b](https://github.com/jameshih/crypto_touchbar/blob/master/banner.JPG?raw=true)
+![b](https://github.com/jameshih/crypto_touchbar/blob/master/banner.JPG)
 
 ### Dependencies
 
