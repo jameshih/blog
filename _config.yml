@@ -6,8 +6,8 @@ author_name: "James Shih"
 logo_url: https://avatars0.githubusercontent.com/u/9959168?v=://avatars0.githubusercontent.com/u/9959168?v=4
 
 # Site Settings
-url: https://blog.shih.app # main url
-baseurl:
+url: https://shih.app # main url
+baseurl: /blog
 permalink: /:title # Post permalink
 timezone: America/Austin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax: true # enables support for mathjax - set to 'false' to disable
