@@ -7,14 +7,14 @@ updated: 2017-12-10 02:30
 
 A touch bar widget for crypto currency price (Bitcoin, Ethereum, and Litecoin)
 
-![b](https://github.com/jameshih/crypto_touchbar/blob/master/banner.JPG)
+![b](https://shih.app/blog/assets/crypto-touchbar/banner.jpeg)
 
 ### Dependencies
 
 - Install BetterTouchBarTool - [https://www.boastr.net/downloads/](https://www.boastr.net/downloads/)
 - Install Homebrew - [https://brew.sh/](https://brew.sh/)
 - Install jq - open terminal and type <code>brew install jq</code>
-- Download - touchbar_crypto.json [https://github.com/jameshih/crypto_touchbar/blob/master/touchbar_crypto.json](https://github.com/jameshih/crypto_touchbar/blob/master/touchbar_crypto.json)
+- Download - touchbar_crypto.json [https://shih.app/blog/assets/crypto-touchbar/touchbar_crypto.json](https://shih.app/blog/assets/crypto-touchbar/touchbar_crypto.json)
 
 ### Installation
 

@@ -7,25 +7,25 @@ updated: 2017-05-10 21:18
 
 DigiMuseum is an interactive 3D visualization that transforms static online museum collections into a 3D gallery environment to create a more engaging online museum visit experience. This project is based on the online collection of the Whitney Museum of American Art.
 
-![1](https://github.com/jameshih/digiMuseum/blob/master/screenshots/overview.png")
+![1](https://shih.app/blog/assets/digi-museum/overview.png")
 
 ### 3D Navigation
 
 Users can navigate through the environment with WASD keys, the intension for assigning these keys is to create a video game like 3D environment.
 
-![2](https://github.com/jameshih/digiMuseum/blob/master/screenshots/navigation.png)
+![2](https://shih.app/blog/assets/digi-museum/navigation.png)
 
 ### Flying Overview
 
 The visualization loads 3000 artworks at a time, which users can fly above the environment to glance at the whole loaded collection.
 
-![3](https://github.com/jameshih/digiMuseum/blob/master/screenshots/fly.png)
+![3](https://shih.app/blog/assets/digi-museum/fly.png)
 
 ### Artwork Info
 
 The visualization has a simple collision detection system built in, which it measures the distance between the camera and an artwork. The information about an artwork will show up below the artwork when the camera gets close to it.
 
-![4](https://github.com/jameshih/digiMuseum/blob/master/screenshots/info.png)
+![4](https://shih.app/blog/assets/digi-museum/info.png)
 
 ### Code
 

@@ -1,3 +1,4 @@
 _site/
 script/
 .sass-cache/
+.DS_STORE
