@@ -1,6 +1,5 @@
 ---
 title: Mini Virtual Pet 🐣
-url: https://shih.app/blog/mini-virtual-pet
 updated: 2015-12-01 16:23
 ---
 

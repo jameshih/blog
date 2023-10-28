@@ -1,6 +1,5 @@
 ---
 title: Vital Wrestler 💨
-url: https://shih.app/blog/vital-wrestler
 updated: 2016-03-31 07:16
 ---
 
