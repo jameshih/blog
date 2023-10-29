@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+image: https://shih.app/blog/assets/m1.png
 ---
 
 <p style="margin-bottom: 22px;">
