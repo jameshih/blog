@@ -1,5 +1,6 @@
 ---
 title: WhitneyRip 👾
+image: https://shih.app/blog/assets/wrip/image.png
 updated: 2017-03-08 19:21
 ---
 
@@ -8,6 +9,8 @@ updated: 2017-03-08 19:21
 ### Sorry I crashed Whitney's website
 
 The project was to build a web scraper and get as much data as possible from anywhere, so I wrote a scraper to get all the available art piece from Whitney Museum of American Art.
+
+![Leaks](https://shih.app/blog/assets/wrip/image.png)
 
 Click Here to see the [Leaks](https://shih.app/18154-shades-of-whitney/white.html) / [Full Archive](https://shih.app/18154-shades-of-whitney/index.html)
 

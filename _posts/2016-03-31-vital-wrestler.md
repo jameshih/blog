@@ -1,5 +1,6 @@
 ---
 title: Vital Wrestler 💨
+image: https://shih.app/blog/assets/wrestle/vital-wrestling-18a9vqu-1024x511.png
 updated: 2016-03-31 07:16
 ---
 

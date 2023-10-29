@@ -1,5 +1,6 @@
 ---
 title: ScreenBOOM 💣
+image: https://shih.app/blog/assets/sboom/image.png
 updated: 2016-10-10 10:10
 ---
 

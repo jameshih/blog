@@ -1,5 +1,6 @@
 ---
 title: Toby the Robo Dog 🐶
+image: https://shih.app/blog/assets/toby/IMG_0226-15fzuu7.jpg
 updated: 2015-12-19 05:11
 ---
 

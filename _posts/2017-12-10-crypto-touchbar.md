@@ -1,5 +1,6 @@
 ---
 title: Crypto TouchBar ₿
+image: https://shih.app/blog/assets/crypto-touchbar/banner.jpeg
 updated: 2017-12-10 02:30
 ---
 
@@ -7,7 +8,7 @@ updated: 2017-12-10 02:30
 
 A touch bar widget for crypto currency price (Bitcoin, Ethereum, and Litecoin)
 
-![b](https://shih.app/blog/assets/crypto-touchbar/banner.jpeg)
+![banner](https://shih.app/blog/assets/crypto-touchbar/banner.jpeg)
 
 ### Dependencies
 

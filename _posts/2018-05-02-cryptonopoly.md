@@ -1,5 +1,6 @@
 ---
 title: Cryptonopoly 🎩
+image: https://shih.app/blog/assets/cryptonopoly/jpg/banner.jpg
 updated: 2018-05-02 15:09
 ---
 

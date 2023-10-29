@@ -1,5 +1,6 @@
 ---
 title: OMG Hide and Seek 🌟
+image: https://shih.app/blog/assets/omg/image.png
 updated: 2023-09-12 15:30
 ---
 

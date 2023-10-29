@@ -1,5 +1,6 @@
 ---
 title: Mini Virtual Pet 🐣
+image: https://shih.app/blog/assets/vpet/IMG_2549-1mayht9-e1448962925118.jpg
 updated: 2015-12-01 16:23
 ---
 

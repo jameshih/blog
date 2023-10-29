@@ -1,5 +1,6 @@
 ---
 title: Hand of Godzilla 🦖
+image: https://shih.app/blog/assets/hands/3-19jvl9k-1024x683.jpg
 updated: 2015-02-23 12:03
 ---
 

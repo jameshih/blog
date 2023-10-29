@@ -1,5 +1,6 @@
 ---
 title: digiMuseum 🖼️
+image: https://shih.app/blog/assets/digi-museum/navigation.png
 updated: 2017-05-10 21:18
 ---
 
