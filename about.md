@@ -18,4 +18,4 @@ This user is always tinkering with new things.<br/>
 This user might be watching you from behind right now.<br/>
 </p>
 
-This user wasted too much time editing this page, so make sure you follow James on <a style="color: #000; text-decoration: underline;" href="https://twitter.com/shihdotapp">Twitter</a>.
+This user wasted too much time editing this page, so make sure you follow James on <a style="color: #000; text-decoration: underline;" href="https://twitter.com/shih_app">Twitter</a>.
