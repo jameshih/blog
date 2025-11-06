@@ -1,5 +1,5 @@
 ---
-title: Stablecoins.club 😃
+title: Stablecoins.club 🪙
 image: https://stablecoins.club/og-default.svg
 updated: 2025-11-05 9:00
 ---
