@@ -2,37 +2,9 @@
 layout: default
 ---
 
-<article>
-  <h1 class="title">{{ page.title }}</h1>
-  <div class="divider"></div>
-  {{ content }}
-  <div class="divider"></div>
+<article class="article page">
+  <header class="article-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="article-body">{{ content }}</div>
 </article>
-<!-- 
-<div class="page-navigation code">
-	<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Back to Index">&larr; Index</a>
-</div>  -->
-<section>
-  <!-- {% for post in site.posts %} {% unless post.next %}
-  <span class="code">{{ post.date | date: '%Y' }}</span>
-  {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {%
-  capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year
-  != nyear %}
-  <span class="code">{{ post.date | date: '%Y' }}</span>
-  {% endif %} {% endunless %} -->
-
-  <hr style="visibility: hidden" />
-  <ul>
-    <li>
-      <div class="post-date code">
-        <span>{{ post.date | date: "%b %d %Y" }}</span>
-      </div>
-      <div class="title">
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}"
-          >{{ post.title }}</a
-        >
-      </div>
-    </li>
-  </ul>
-  <!-- {% endfor %} -->
-</section>

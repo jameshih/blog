@@ -4,35 +4,35 @@ image: https://shih.app/blog/assets/sboom/image.png
 updated: 2016-10-10 10:10
 ---
 
-<p align="center">
-<img src="https://shih.app/blog/assets/sboom/eagle.png" width="280">
-</p>
+<div class="media-center">
+  <img src="https://shih.app/blog/assets/sboom/eagle.png" alt="ScreenBOOM eagle graphic" width="280">
+</div>
 
-### Big Brother did't force you to watch
+## Big Brother Didn't Force You to Watch
 
-My concept for this project started from the electronic usage data that I had collected for nine days at the beginning of this school year. I created a visualization that would turn my electronic usage time of each application into an atom, the more the electrons, the longer the electronic usage duration is. By making this visualization, my intension was to imagine how would the atoms of our brain cells look like, if computers hadn’t become a majority of our working routine.
+The concept began with nine days of device-usage data that I collected at the start of the school year. I created a visualization that turned the time spent in each application into an atom: the more electrons it had, the longer I had used the application. I wanted to imagine what the atoms in our brain cells might look like if computers had not become such a large part of our working lives.
 <br><br><br>
 ![Atom](https://shih.app/blog/assets/sboom/2.gif)
 <br><br><br>
 
-#### ScreenBOOM
+### ScreenBOOM
 
-After creating a visualization for the data I had collected, I wanted to create a system that can evaluate the importance of time and present that to the public. My first idea was to create a tetris game that is controlled by three timers, the first timer controls left and right movement of the tetris block, the second timer controls turning of the tetris block, and the third timer controls the speed of the tetris block, the player would have to adjust the timers to land a tetris block at his or her desired location. However, I realized that simply making a tetris game could not fully demonstrate the concept, “time is important,” well. This is when I came up with the idea of Screen BOOM. Rather than using time to control a tetris game, I am going use a timer to limit one’s computer usage. I will create an Arduino device that will automatically logout the user when the timer is up . The purpose of this Arduino timer is to emphasis the importance of time and ALWAYS save your files at all time.
+After visualizing the data, I wanted to build a system that could demonstrate the value of time. My first idea was a Tetris game controlled by three timers: one for horizontal movement, one for rotation, and one for speed. The player would adjust the timers to land each block in the desired position. However, a Tetris game did not communicate “time is important” strongly enough. That led me to ScreenBOOM. Instead of using time to control a game, an Arduino timer limits your computer session and automatically logs you out when time expires. Its lesson is simple: time matters, and ALWAYS save your files.
 
-What will you do if you can only use any electronic gadget for a limited amount of time per day?
+What would you do if you could use each electronic device for only a limited amount of time per day?
 
-### Build Process
+## Build Process
 
-#### First prototype on a breadboard
+### First Prototype on a Breadboard
 
 ![p1](https://shih.app/blog/assets/sboom/p1.jpg)
 
-#### Second prototype on cardboard
+### Second Prototype on Cardboard
 
 ![f1](https://shih.app/blog/assets/sboom/f1.jpg)
 ![f2](https://shih.app/blog/assets/sboom/f2.jpg)
 
-#### Testing out the second prototype
+### Testing the Second Prototype
 
 Set time
 
@@ -46,9 +46,9 @@ Game over
 
 ![t3](https://shih.app/blog/assets/sboom/t3.jpg)
 
-### Code
+## Code
 
-#### screenBoom.ino
+### screenBoom.ino
 
 ```cpp
 /*
@@ -56,7 +56,7 @@ Game over
   automatically log you out of your computer
             ***beware of unsaved files!!!***
   Screen Timer v2
-  Aurthor: James Shih
+  Author: James Shih
   references
   https://www.arduino.cc/en/Reference/KeyboardModifiers
   https://www.arduino.cc/en/Reference/KeyboardPress
@@ -157,6 +157,6 @@ void loop() {
 }
 ```
 
-### Video
+## Video
 
-<iframe src="https://www.youtube.com/embed/pI1DQHCBCME" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/pI1DQHCBCME" title="ScreenBOOM demo" width="640" height="564" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>

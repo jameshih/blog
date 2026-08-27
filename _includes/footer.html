@@ -1,6 +1,7 @@
-<div class="footer">
-  <span class="block"
-    >&copy; {{ site.time | date: '%Y' }}
-    <a href="https://twitter.com/shih_app">{{ site.author }}</a></span
-  >
-</div>
+<footer class="site-footer">
+  <p>&copy; <time datetime="{{ site.time | date: '%Y' }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}</p>
+  <nav aria-label="Social links">
+    <a href="https://github.com/jameshih" rel="me">GitHub</a>
+    <a href="https://x.com/shih_app" rel="me">X</a>
+  </nav>
+</footer>

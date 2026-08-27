@@ -1,0 +1,44 @@
+{% if jekyll.environment == "production" and site.google_analytics %}
+<script>
+  document.addEventListener("click", function (event) {
+    var link = event.target.closest("a");
+    if (!link || typeof window.gtag !== "function") return;
+
+    var eventName = link.dataset.analyticsEvent;
+    if (!eventName && link.matches(".post-list a")) eventName = "blog_post_open";
+    if (!eventName && link.matches(".site-brand, .site-nav a, .site-footer a, .post-navigation a")) eventName = "site_navigation_click";
+    if (!eventName && link.origin !== window.location.origin) eventName = "outbound_link_click";
+    if (!eventName && link.closest(".article-body")) eventName = "article_link_click";
+    if (!eventName) return;
+
+    var destination = link.href;
+    var followsInCurrentTab = event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && link.target !== "_blank";
+
+    if (!followsInCurrentTab) {
+      window.gtag("event", eventName, {
+        link_url: destination,
+        link_text: link.textContent.trim(),
+        transport_type: "beacon"
+      });
+      return;
+    }
+
+    event.preventDefault();
+    var followed = false;
+    var followLink = function () {
+      if (followed) return;
+      followed = true;
+      window.location.assign(destination);
+    };
+
+    window.gtag("event", eventName, {
+      link_url: destination,
+      link_text: link.textContent.trim(),
+      transport_type: "beacon",
+      event_callback: followLink,
+      event_timeout: 300
+    });
+    window.setTimeout(followLink, 350);
+  });
+</script>
+{% endif %}

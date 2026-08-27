@@ -6,23 +6,23 @@ updated: 2016-03-31 07:16
 
 ![Render](https://shih.app/blog/assets/wrestle/IMG_0864-2i0jvj7-1024x768.jpg)
 
-### Don't smoke. It's bad for you.
+## Don't Smoke. It's Bad for You.
 
-Many of my friends are heavy smokers. I had been trying to help them quit smoking for awhile, telling them how bad smoking influences physical abilities. They seemed to be not taking my advice seriously, so I decided to make a device that would help my friends realize how bad smoking is.
+Many of my friends were heavy smokers. I had been trying for a while to help them quit by explaining how badly smoking affects physical performance. They did not seem to take my advice seriously, so I decided to make a device that would help them feel the effects for themselves.
 
-When I was running cross country in high school, the coach would bring us balloons and had a competition once a month. Whoever popped the ballon first or had the biggest balloon when the time was up could take the day off. We called the competition “vital wrestling.” I took the idea as an inspiration for my midterm and decided to make an interactive wrestling machine which two players compete by blowing into the fans, and whoever pushes the other player’s hand down wins the game.
+When I ran cross-country in high school, our coach brought us balloons for a monthly competition. Whoever popped a balloon first, or had the largest balloon when time ran out, earned the day off. We called it “vital wrestling.” I used that idea for my midterm and built an interactive wrestling machine in which two players compete by blowing into fans. Whoever pushes the other player’s hand down wins.
 <br><br><br>
 ![Concept](https://shih.app/blog/assets/wrestle/vital-wrestling-18a9vqu-1024x511.png)
 <br><br><br>
 
-### Schematic Diagram
+## Schematic Diagram
 
 ![SD](https://shih.app/blog/assets/wrestle/vital-wrestling-18aa1ba-1024x654.png)
 <br><br>
 
-### Code
+## Code
 
-#### vital_wrestling.ino
+### vital_wrestling.ino
 
 ```cpp
 #include <LiquidCrystal.h>
@@ -65,7 +65,7 @@ void loop() {
 }
 ```
 
-#### tone_and_display.ino
+### tone_and_display.ino
 
 ```cpp
 //custom set tone code for my laziness
@@ -116,34 +116,34 @@ void winTone() {
 }
 ```
 
-#### timerCal.ino
+### timerCal.ino
 
 ```cpp
-//transfer fan analog read data into LED fadelevel
+//transfer fan analog read data into LED fade level
 void timerCal() {
   long cTime = millis();
 
   if (cTime - timer1 >= interval) { //debouncing
     if (val1 != 0) {
       diff1 = (int)(val1 / 10); //measure how hard player one blows
-      fadeLevel1 += diff1; //apply addup
+      fadeLevel1 += diff1; //apply addition
     }
 
-    timer1 = cTime; //reseting timer1
+    timer1 = cTime; //resetting timer1
   }
 
   if (cTime - timer2 >= interval) { //debouncing
     if (val2 != 0) {
       diff2 = (int)(val2 / 10); //measure how hard player two blows
-      fadeLevel2 += diff2; //apply addup
+      fadeLevel2 += diff2; //apply addition
     }
 
-    timer2 = cTime; //reseting timer2
+    timer2 = cTime; //resetting timer2
   }
 }
 ```
 
-#### reset.ino
+### reset.ino
 
 ```cpp
 //reset the game
@@ -158,7 +158,7 @@ void reset() {
 }
 ```
 
-#### logic.ino
+### logic.ino
 
 ```cpp
 void logic() {
@@ -289,7 +289,7 @@ void logic() {
 }
 ```
 
-#### debug.ino
+### debug.ino
 
 ```cpp
 void debug(){
@@ -314,31 +314,31 @@ void debug(){
 }
 ```
 
-### Build Process
+## Build Process
 
-When I got the pc fans, I spent a lot of time searching online for a guide that tells me how to use the fans as analog read devices for the Arduino. I didn’t find any, so I just plugged the power into A10 and A1 and ground to ground and they turned out to be working like regular analog devices and they print out larger number as you blow on them.
+When I got the PC fans, I spent a long time searching for a guide to using them as analog input devices for an Arduino. I could not find one, so I connected their power lines to A10 and A1 and connected ground to ground. They worked like regular analog devices, producing larger values as I blew harder.
 
 ![pc](https://shih.app/blog/assets/wrestle/IMG_0838-1litvt6.jpg)
 
-I figured that one LED for each player wouldn’t be bright enough to represent the game play, so I soldered three LEDs together to form a brighter indicator.
+I figured one LED per player would not be bright enough for the gameplay, so I soldered three LEDs together to make a brighter indicator.
 
 ![leds](https://shih.app/blog/assets/wrestle/IMG_0844-1wpl8s7-e1459434477564-768x1024.jpg)
 
-I added a buzzer to play the game start sounds, winning sounds, and the restart sounds.
+I added a buzzer for the start, victory, and restart sounds.
 
 ![buzz](https://shih.app/blog/assets/wrestle/IMG_0845-1vwv9zx-e1459434625388-768x1024.jpg)
 
-#### Laser cutting the case.
+### Laser-Cutting the Case
 
 ![1](https://shih.app/blog/assets/wrestle/IMG_0856-sx0b33.jpg)
 ![2](https://shih.app/blog/assets/wrestle/IMG_0857-10fy5kl.jpg)
 
-#### Putting everything together.
+### Putting Everything Together
 
 ![4](https://shih.app/blog/assets/wrestle/IMG_0858-20fc6mt.jpg)
 
 ![5](https://shih.app/blog/assets/wrestle/IMG_0859-1t1e48d.jpg)
 
-### Video
+## Video
 
-<iframe src="https://www.youtube.com/embed/OCsJXbZ-bSg" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/OCsJXbZ-bSg" title="Vital Wrestler demo" width="640" height="564" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
