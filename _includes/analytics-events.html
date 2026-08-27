@@ -5,10 +5,10 @@
     if (!link || typeof window.gtag !== "function") return;
 
     var eventName = link.dataset.analyticsEvent;
-    if (!eventName && link.matches(".post-list a")) eventName = "blog_post_open";
-    if (!eventName && link.matches(".site-brand, .site-nav a, .site-footer a, .post-navigation a")) eventName = "site_navigation_click";
+    if (!eventName && link.matches("section ul .title a")) eventName = "blog_post_open";
+    if (!eventName && link.matches(".logo a, .footer a, .page-navigation a")) eventName = "site_navigation_click";
     if (!eventName && link.origin !== window.location.origin) eventName = "outbound_link_click";
-    if (!eventName && link.closest(".article-body")) eventName = "article_link_click";
+    if (!eventName && link.closest("article")) eventName = "article_link_click";
     if (!eventName) return;
 
     var destination = link.href;
