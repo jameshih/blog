@@ -5,17 +5,35 @@ description: Products, experiments, and notes by James Shih.
 image: https://shih.app/social-card.png
 ---
 
-<section class="post-index" aria-labelledby="post-index-title">
-  <header class="index-header">
-    <p class="article-kicker">Selected work and experiments</p>
-    <h1 id="post-index-title">Notes from James</h1>
-  </header>
-  <ol class="post-list">
-    {% for post in site.posts %}
+<h1 class="visually-hidden">James Shih's work and experiments</h1>
+
+<!--<section>-->
+<!--<ui id="nav">-->
+<!--<li>Work</li>-->
+<!--<li>Blog</li>-->
+<!--</ui>-->
+<!--</section>-->
+<section>
+  <!-- {% for post in site.posts %} {% unless post.next %}
+  <span class="code">{{ post.date | date: '%Y' }}</span>
+  {% else %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {%
+  capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if year
+  != nyear %}
+  <span class="code">{{ post.date | date: '%Y' }}</span>
+  {% endif %} {% endunless %} -->
+
+  <hr style="visibility: hidden" />
+  <ul>
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      <div class="post-date code">
+        <span>{{ post.date | date: "%b %d %Y" }}</span>
+      </div>
+      <div class="title">
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" data-analytics-event="blog_post_open"
+          >{{ post.title }}</a
+        >
+      </div>
     </li>
-    {% endfor %}
-  </ol>
+  </ul>
+  <!-- {% endfor %} -->
 </section>

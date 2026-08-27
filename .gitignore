@@ -1,4 +1,8 @@
 _site/
 script/
+.bundle/
+.jekyll-cache/
 .sass-cache/
+.DS_Store
 .DS_STORE
+vendor/

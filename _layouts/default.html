@@ -8,10 +8,9 @@ published: true
   <head>
     {% include head.html %}
   </head>
-  <body>
-    <a class="skip-link" href="#content">Skip to content</a>
+  <body style="background: rgba(255, 255, 255, 1)">
     {% include header.html %}
-    <main id="content" tabindex="-1">{{ content }}</main>
+    <div id="content">{{ content }}</div>
     {% include footer.html %}
     {% include analytics-events.html %}
   </body>

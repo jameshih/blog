@@ -1,10 +1,10 @@
-<header class="site-header">
-  <a class="site-brand" href="{{ site.url }}" aria-label="James Shih home">
-    <img src="{{ site.logo }}" class="logo-avatar" alt="" width="807" height="991" loading="eager" decoding="async" fetchpriority="high">
-    <span>James Shih</span>
+<aside class="logo">
+  {% if page.url == '/index.html' or page.url == '/' %} {% assign link =
+  '/about' %} {% assign prompt = 'About the Author' %} {% else %} {% assign link
+  = '/' %} {% assign prompt = 'Back to Index' %} {% endif %}
+
+  <a href="{{ link | prepend: site.baseurl | prepend: site.url }}" aria-label="{{ prompt }}">
+    <img src="{{ site.logo }}" class="logo-avatar" alt="" width="807" height="991" loading="eager" decoding="async" fetchpriority="high" />
   </a>
-  <nav class="site-nav" aria-label="Primary navigation">
-    <a{% if page.url == '/' %} aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Blog</a>
-    <a{% if page.url == '/about.html' or page.url == '/about/' %} aria-current="page"{% endif %} href="{{ '/about' | relative_url }}">About</a>
-  </nav>
-</header>
+  <span class="logo-prompt code">{{ prompt }}</span>
+</aside>
