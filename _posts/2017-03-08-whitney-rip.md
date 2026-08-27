@@ -6,15 +6,15 @@ updated: 2017-03-08 19:21
 
 ![Crash](https://shih.app/blog/assets/wrip/crash.png)
 
-### Sorry I crashed Whitney's website
+## Sorry I Crashed Whitney's Website
 
-The project was to build a web scraper and get as much data as possible from anywhere, so I wrote a scraper to get all the available art piece from Whitney Museum of American Art.
+The assignment was to build a web scraper and collect as much data as possible from anywhere. Naturally, I wrote one that tried to collect every available artwork from the Whitney Museum of American Art.
 
 ![Leaks](https://shih.app/blog/assets/wrip/image.png)
 
-Click Here to see the [Leaks](https://shih.app/18154-shades-of-whitney/white.html) / [Full Archive](https://shih.app/18154-shades-of-whitney/index.html)
+See the [Leaks](https://shih.app/18154-shades-of-whitney/white.html) or the [Full Archive](https://shih.app/18154-shades-of-whitney/index.html).
 
-### The Hack
+## The Hack
 
 ```
 Scraping Logs
@@ -88,17 +88,17 @@ You don't have permission to access /standard/13663/largepage.jpg on this server
 
 ```
 
-#### Scraping with node server
+### Scraping with a Node.js Server
 
 ![node](https://shih.app/blog/assets/wrip/node_scrape.png)
 
-#### Scraping with bash scripe
+### Scraping with a Bash Script
 
 ![bash](https://shih.app/blog/assets/wrip/bash_scrape.png)
 
-### Code
+## Code
 
-#### scraper.js
+### scraper.js
 
 ```javascript
 var request = require("request"),
@@ -172,12 +172,12 @@ lupus(13620, 18156, function (n) {
     }
   );
 
-  //sleep delay prevent socket hungup
+  //sleep delay prevents socket hangup
   sleep(5000);
 });
 ```
 
-#### scrape.sh
+### scrape.sh
 
 ```bash
 #!/bin/bash
@@ -191,9 +191,9 @@ done
 
 ```
 
-### Art Piece Data
+## Artwork Data
 
-[view all](https://shih.app/blog/assets/wrip/data.json)
+[View all artwork data](https://shih.app/blog/assets/wrip/data.json).
 
 ```json
 [

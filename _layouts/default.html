@@ -4,13 +4,15 @@ published: true
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale | default: 'en_US' | replace: '_', '-' }}">
   <head>
     {% include head.html %}
   </head>
-  <body style="background: rgba(255, 255, 255, 1)">
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
     {% include header.html %}
-    <div id="content">{{ content }}</div>
+    <main id="content" tabindex="-1">{{ content }}</main>
     {% include footer.html %}
+    {% include analytics-events.html %}
   </body>
 </html>

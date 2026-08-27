@@ -4,33 +4,33 @@ image: https://shih.app/blog/assets/digi-museum/navigation.png
 updated: 2017-05-10 21:18
 ---
 
-### Overview
+## Overview
 
-DigiMuseum is an interactive 3D visualization that transforms static online museum collections into a 3D gallery environment to create a more engaging online museum visit experience. This project is based on the online collection of the Whitney Museum of American Art.
+DigiMuseum is an interactive visualization that transforms a static online museum collection into a 3D gallery, creating a more engaging digital visit. This project is based on the Whitney Museum of American Art's online collection.
 
 ![Overview](https://shih.app/blog/assets/digi-museum/overview.png)
 
-### 3D Navigation
+## 3D Navigation
 
-Users can navigate through the environment with WASD keys, the intension for assigning these keys is to create a video game like 3D environment.
+Users navigate the environment with the WASD keys, making the 3D gallery feel more like a video game.
 
 ![Navigation](https://shih.app/blog/assets/digi-museum/navigation.png)
 
-### Flying Overview
+## Flying Overview
 
-The visualization loads 3000 artworks at a time, which users can fly above the environment to glance at the whole loaded collection.
+The visualization loads 3,000 artworks at a time. Users can fly above the environment to see the entire loaded collection at a glance.
 
 ![Flying](https://shih.app/blog/assets/digi-museum/fly.png)
 
-### Artwork Info
+## Artwork Information
 
-The visualization has a simple collision detection system built in, which it measures the distance between the camera and an artwork. The information about an artwork will show up below the artwork when the camera gets close to it.
+The visualization includes a simple collision-detection system that measures the distance between the camera and each artwork. When the camera moves close enough, information appears beneath the artwork.
 
 ![Info](https://shih.app/blog/assets/digi-museum/info.png)
 
-### Code
+## Code
 
-#### master.cpp
+### master.cpp
 
 ```cpp
 #include "ofMain.h"
@@ -48,7 +48,7 @@ int master( ){
 }
 ```
 
-#### ofApp.cpp
+### ofApp.cpp
 
 ```cpp
 #include "ofApp.h"
@@ -119,7 +119,7 @@ void ofApp::draw(){
 
     cam.begin();
 
-    for(int i =0; i <imgload.setNum; i++){
+    for(int i =0; i <img alt=""load.setNum; i++){
 
         if(imgload.zArr[i]>= cam.pos.z-limNum
            && imgload.zArr[i] <= cam.pos.z+limNum
@@ -232,7 +232,7 @@ void ofApp::dragEvent(ofDragInfo dragInfo){
 }
 ```
 
-#### ofApp.h
+### ofApp.h
 
 ```cpp
 #pragma once
@@ -292,7 +292,7 @@ public:
 };
 ```
 
-#### imgLoader.cpp
+### imgLoader.cpp
 
 ```cpp
 #include "imgLoader.h"
@@ -336,7 +336,7 @@ void imgLoader::draw(){
 }
 ```
 
-#### imgLoader.h
+### imgLoader.h
 
 ```cpp
 #ifndef imgLoader_h
@@ -375,7 +375,7 @@ public:
 };
 ```
 
-#### text.cpp
+### text.cpp
 
 ```cpp
 #include "text.h"
@@ -413,7 +413,7 @@ void text::draw(){
 }
 ```
 
-#### text.h
+### text.h
 
 ```cpp
 #ifndef text_h
@@ -436,7 +436,6 @@ public:
 };
 ```
 
-### Video
+## Video
 
-<iframe src="https://www.youtube.com/embed/whgXFb7pLsg
-" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/whgXFb7pLsg" title="digiMuseum demo" width="640" height="564" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>

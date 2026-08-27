@@ -2,14 +2,10 @@
 layout: null
 ---
 
-sitemap: {{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}
+sitemap: {{ "/sitemap.xml" | absolute_url }}
 
-user-agent: EmailCollector
-disallow: /
+User-agent: *
+Allow: /
 
-# Certain social media sites are whitelisted to allow crawlers to access page markup when links to /images are shared. 
-User-agent: Twitterbot
-Allow: /images
-
-User-agent: facebookexternalhit
-Allow: /images
+User-agent: EmailCollector
+Disallow: /

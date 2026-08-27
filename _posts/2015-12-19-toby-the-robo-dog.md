@@ -6,153 +6,151 @@ updated: 2015-12-19 05:11
 
 ![Toby](https://shih.app/blog/assets/toby/IMG_0226-15fzuu7.jpg)
 
-### Too lazy to buy your pet food? Why not get a robot dog.
+## Too Lazy to Buy Pet Food? Why Not Get a Robot Dog?
 
-The project is a continuation of [Mini Virtual Pet](https://shih.app/blog/mini-virtual-pet). My goal for the project is to create a physical robot dog that one can interact with using a desktop application based on the mini virtual pet's interface and gameplay.
+This project continues [Mini Virtual Pet](https://shih.app/blog/mini-virtual-pet). My goal was to create a physical robot dog that users could interact with through a desktop application based on the virtual pet's interface and gameplay.
 
-### Build Process
+## Build Process
 
-I started out by researching all the components needed for creating my robot, which are 4 servos and one ultrasonic sensor. I used an Arduino as the main control board.
+I started by researching the components I needed: four servos and one ultrasonic sensor. I used an Arduino as the main control board.
 
-I connected all four servos to the Arduino and started to model and 3d print some test enclosures for the servos
+I connected all four servos to the Arduino, then modeled and 3D-printed several test enclosures for them.
 <br><br>
 
-<center>
-<img src="https://shih.app/blog/assets/toby/s1.jpg" width="300">
-<img src="https://shih.app/blog/assets/toby/s2.jpg" width="300">
-</center>
+<div class="media-center">
+<img alt="" src="https://shih.app/blog/assets/toby/s1.jpg" width="300">
+<img alt="" src="https://shih.app/blog/assets/toby/s2.jpg" width="300">
+</div>
 
 <br><br>
 
-<center>
+<div class="media-center">
 <div>
 
 servo enclosure test 1
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230312e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+1.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#89037356-f604-4751-90f6-cb68917ceed5"></iframe>
-</center>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230312e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+1.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#89037356-f604-4751-90f6-cb68917ceed5"></iframe>
+</div>
 
-<center>
+<div class="media-center">
 <div>
 
 servo enclosure test 2
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230322e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+2.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#ed497055-7ea9-4bd4-94b7-145c816142ad"></iframe>
-</center>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230322e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+2.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#ed497055-7ea9-4bd4-94b7-145c816142ad"></iframe>
+</div>
 
-<center>
+<div class="media-center">
 <div>
 
 servo enclosure test 3
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230332e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+3.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#f512988f-714d-4a96-9d8e-f05e3453a361"></iframe>
-</center>
-
-<script src="https://embed.github.com/view/3d/jameshih/Virtual-Robotics/master/Progress 3D print STL/servo enclosure/servo enclosure test 3.stl"></script>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f736572766f253230656e636c6f737572652f736572766f253230656e636c6f7375726525323074657374253230332e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fservo+enclosure%2Fservo+enclosure+test+3.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#f512988f-714d-4a96-9d8e-f05e3453a361"></iframe>
+</div>
 
 <br>
-Then I began to work on the robot’s legs
+Then I began working on the robot's legs.
 
-<center>
+<div class="media-center">
 <div>
 
 leg test 1
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c6567253230746573742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#d00179f1-f226-4dc4-a5c4-4f934ae333b8"></iframe>
-</center>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c6567253230746573742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#d00179f1-f226-4dc4-a5c4-4f934ae333b8"></iframe>
+</div>
 
-<center>
+<div class="media-center">
 <div>
 
 leg test 2 left
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c656725323074657374253230322532306c6566742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test+2+left.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#33f31ff0-75c3-492f-bff0-1916fa3a1f39"></iframe>
-</center>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c656725323074657374253230322532306c6566742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test+2+left.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#33f31ff0-75c3-492f-bff0-1916fa3a1f39"></iframe>
+</div>
 
-<center>
+<div class="media-center">
 <div>
 
 leg test 2 right
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c6567253230746573742532303225323072696768742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test+2+right.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#ee7893fd-79e4-4f0f-a132-c7adbcae45ab"></iframe>
-</center>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f6c65672f6c6567253230746573742532303225323072696768742e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fleg%2Fleg+test+2+right.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#ee7893fd-79e4-4f0f-a132-c7adbcae45ab"></iframe>
+</div>
 
-After finishing the basic components, I put together an unibody frame that can hold all servos while carrying an Arduino board.
+After finishing the basic components, I built a unibody frame that could hold all four servos and carry the Arduino board.
 
-<center>
+<div class="media-center">
 <div>
 
 Unibody frame
 
 </div>
-<iframe width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f626f64792532306672616d652f726f626f74253230756e69626f6479253230656e636c6f7375726525323074657374253230312e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fbody+frame%2Frobot+unibody+enclosure+test+1.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#8a726a3a-6bfe-4d3e-ad42-ade31de49d72"></iframe>
-</center>
+<iframe loading="lazy" title="Embedded project media" width="600" height="400" src="https://viewscreen.githubusercontent.com/view/solid?commit=c1e94f7eff626c218e73162bd1c1a5e374654b01&device=unknown_device&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6a616d65736869682f5669727475616c2d526f626f746963732f633165393466376566663632366332313865373331363262643163316135653337343635346230312f50726f677265737325323033442532307072696e7425323053544c2f626f64792532306672616d652f726f626f74253230756e69626f6479253230656e636c6f7375726525323074657374253230312e73746c&logged_in=true&nwo=jameshih%2FVirtual-Robotics&path=Progress+3D+print+STL%2Fbody+frame%2Frobot+unibody+enclosure+test+1.stl&platform=mac&repository_id=47721677&repository_type=Repository&version=94#8a726a3a-6bfe-4d3e-ad42-ade31de49d72"></iframe>
+</div>
 
-I connected all the essential parts and wrote the Arduino program for the robot to walk.
+I connected the essential parts and wrote the Arduino program that made the robot walk.
 
-<center>
-<img src="https://shih.app/blog/assets/toby/1.jpg" width="220">
-<img src="https://shih.app/blog/assets/toby/2.jpg" width="220">
-<img src="https://shih.app/blog/assets/toby/3.jpg" width="220">
-<img src="https://shih.app/blog/assets/toby/4.jpg" width="220">
-</center>
+<div class="media-center">
+<img alt="" src="https://shih.app/blog/assets/toby/1.jpg" width="220">
+<img alt="" src="https://shih.app/blog/assets/toby/2.jpg" width="220">
+<img alt="" src="https://shih.app/blog/assets/toby/3.jpg" width="220">
+<img alt="" src="https://shih.app/blog/assets/toby/4.jpg" width="220">
+</div>
 
-#### Test Walk
+### Test Walk
 
-<iframe src="https://www.youtube.com/embed/gfIM5SOlD3k" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe loading="lazy" title="Embedded project media" src="https://www.youtube.com/embed/gfIM5SOlD3k" width="640" height="564" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-I added an ultrasonic distance sensor so that users can physically interact with the robot.
+I added an ultrasonic distance sensor so users could physically interact with the robot.
 
 ![t1](https://shih.app/blog/assets/toby/IMG_0231-17um6ht-768x1024.jpg)
 
-I looked up many methods to communicate with the Arduino using my laptop and found that bluetooth is the most efficient one.
+I researched several ways for my laptop to communicate with the Arduino and found Bluetooth to be the most efficient.
 
 ![t2](https://shih.app/blog/assets/toby/IMG_0287-1wyk153-768x1024.jpg)
 
-I started to work on a virtual interface for user to control the robot via their computers. I took the design concept from a [tamagochi game](https://github.com/jameshih/virtual-pet) that I made before.
+I started building a virtual interface that let users control the robot from their computers. I based the design on a [Tamagotchi game](https://github.com/jameshih/virtual-pet) I had made earlier.
 
 ![i1](https://shih.app/blog/assets/toby/i1.png)
 
-There are two indicators, “heart” and “happy face”.
+There are two indicators: a heart and a happy face.
 
-Heart indicates the health of the pet, the pet will die if it gets to zero.
+The heart shows the pet's health. The pet dies if it reaches zero.
 
-Happy face indicates the mood of the pet; the yellow face will turn red, showing the pet is mad if the happy level gets below 40.
+The happy face shows the pet's mood. It turns from yellow to red when the happiness level drops below 40, which means the pet is mad.
 
-There are two options on the home page, FEED and REMOTE
+The home page has two options: FEED and REMOTE.
 
 ![i2](https://shih.app/blog/assets/toby/i2.png)
 
-FEED lets the user to choose what to feed the pet (milk, apple ,or meat).
+FEED lets the user choose what to give the pet: milk, an apple, or meat.
 
-<center>
-<img src="https://shih.app/blog/assets/toby/f1.png" width="200">
-<img src="https://shih.app/blog/assets/toby/f2.png" width="200">
-<img src="https://shih.app/blog/assets/toby/f3.png" width="200">
-<img src="https://shih.app/blog/assets/toby/b1.png" width="200">
-<img src="https://shih.app/blog/assets/toby/b2.png" width="200">
-<img src="https://shih.app/blog/assets/toby/b3.png" width="200">
-</center>
+<div class="media-center">
+<img alt="" src="https://shih.app/blog/assets/toby/f1.png" width="200">
+<img alt="" src="https://shih.app/blog/assets/toby/f2.png" width="200">
+<img alt="" src="https://shih.app/blog/assets/toby/f3.png" width="200">
+<img alt="" src="https://shih.app/blog/assets/toby/b1.png" width="200">
+<img alt="" src="https://shih.app/blog/assets/toby/b2.png" width="200">
+<img alt="" src="https://shih.app/blog/assets/toby/b3.png" width="200">
+</div>
 
-REMOTE lets the player control the robot
+REMOTE lets the player control the robot.
 ![r1](https://shih.app/blog/assets/toby/r1.png)
 
-The robot is physically interactive outside of the REMOTE tap, meaning that it will response to the user automatically.
+The robot remains physically interactive outside the REMOTE tab, meaning it responds to the user automatically.
 
-When on the REMOTE page, the user can press S on the keyboard to make the robot sit, U to make the robot stand, and D to lay the robot down.
+On the REMOTE page, the user can press S to make the robot sit, U to make it stand, and D to make it lie down.
 
-If health gets to zero the pet will die and the robot will show dead.
+If its health reaches zero, the pet dies and the robot plays dead.
 ![d](https://shih.app/blog/assets/toby/d.png)
 
-### Robot Code
+## Robot Code
 
-#### robot_v2.ino
+### robot_v2.ino
 
 ```cpp
 #include <Servo.h>
@@ -213,7 +211,7 @@ void loop() {
 }
 ```
 
-#### logic.ino
+### logic.ino
 
 ```cpp
 
@@ -263,7 +261,7 @@ void logic() {
 }
 ```
 
-#### proximity.ino
+### proximity.ino
 
 ```cpp
 void proximity() {
@@ -280,7 +278,7 @@ void proximity() {
 }
 ```
 
-#### debug.ino
+### debug.ino
 
 ```cpp
 void debug(){
@@ -298,9 +296,9 @@ void debug(){
 }
 ```
 
-### Interface Code
+## Interface Code
 
-#### virtual_pet_interface.ino
+### virtual_pet_interface.ino
 
 ```cpp
 import processing.serial.*;
@@ -427,7 +425,7 @@ void mouseClicked() {
 }
 ```
 
-#### logic.ino
+### logic.ino
 
 ```cpp
 void logic() {
@@ -648,7 +646,7 @@ void select() {
 }
 ```
 
-#### display.ino
+### display.ino
 
 ```cpp
 void display() {
@@ -722,6 +720,6 @@ void emotion() {
 }
 ```
 
-### Video
+## Video
 
-<iframe src="https://www.youtube.com/embed/f2849jXubVM" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe loading="lazy" title="Embedded project media" src="https://www.youtube.com/embed/f2849jXubVM" width="640" height="564" allow="autoplay; fullscreen" allowfullscreen></iframe>

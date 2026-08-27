@@ -2,20 +2,27 @@
 title: "James Shih"
 repository: jameshih/blog
 tagline: "Blog"
-description: "My name is James Shih. Welcome to my personal site."
-author: "James Shih"
-logo: https://avatars0.githubusercontent.com/u/9959168?v=://avatars0.githubusercontent.com/u/9959168?v=4
+description: "Products, experiments, and notes by James Shih."
+author:
+  name: "James Shih"
+  twitter: shih_app
+  url: https://shih.app
+logo: https://shih.app/js.svg
 locale: en_US
 twitter:
   username: shih_app
-  twitter: summary
+  card: summary_large_image
+social:
+  name: "James Shih"
+  links:
+    - https://github.com/jameshih
+    - https://x.com/shih_app
 
 # Site Settings
 url: https://shih.app # main url
 baseurl: /blog
 permalink: /:title # Post permalink
-timezone: America/Austin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax: true # enables support for mathjax - set to 'false' to disable
+timezone: Asia/Taipei # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Site Build
 highlighter: rouge
@@ -27,7 +34,15 @@ sass:
 
 # Other Params
 include: ["robots.txt"]
-exclude: ["LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script"]
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - script
+  - node_modules
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -35,12 +50,10 @@ plugins:
 defaults:
   - scope:
       path: ""
-    values:
-      layout: "null"
-  - scope:
       type: "pages"
     values:
       layout: "page"
+      image: https://shih.app/social-card.png
   - scope:
       type: "posts"
     values:

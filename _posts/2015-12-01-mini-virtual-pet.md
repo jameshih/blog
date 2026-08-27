@@ -4,25 +4,25 @@ image: https://shih.app/blog/assets/vpet/IMG_2549-1mayht9-e1448962925118.jpg
 updated: 2015-12-01 16:23
 ---
 
-<center>
+<div class="media-center">
 
-<img src="https://media.giphy.com/media/yn9OTbe6P9Tgs/giphy.gif" width="500">
+<img alt="" src="https://media.giphy.com/media/yn9OTbe6P9Tgs/giphy.gif" width="500">
 
-</center>
+</div>
 
-### No space for a pet, why not a virtual pet
+## No Space for a Pet? Why Not a Virtual Pet?
 
-My concept for the project is to create a simple virtual pet similar to the Tamagotchi. The pet has a happiness and a health bar, which the values will constantly drop every 30 seconds. The user must keep feeding and playing with the pet or else the pet will die once the health bar get to zero.
+My concept was to create a simple virtual pet similar to a Tamagotchi. The pet has happiness and health bars, and both values drop every 30 seconds. The user must keep feeding and playing with the pet, or it dies when its health reaches zero.
 <br><br><br>
 
-### Schematic Diagram
+## Schematic Diagram
 
 ![SD](https://shih.app/blog/assets/vpet/schematic-2i7sttu-1024x733.png)
 <br><br>
 
-### Code
+## Code
 
-#### virtual_pet_v2.ino
+### virtual_pet_v2.ino
 
 ```cpp
 #include "SPI.h"
@@ -84,7 +84,7 @@ void loop() {
 }
 ```
 
-#### display.ino
+### display.ino
 
 ```cpp
 \void displayInfo() {
@@ -140,7 +140,7 @@ void serialPort() {
 }
 ```
 
-#### graphic.ino
+### graphic.ino
 
 ```cpp
 void gameGraphic() {
@@ -196,7 +196,7 @@ void resetGame() {
 }
 ```
 
-#### interface.ino
+### interface.ino
 
 ```cpp
 void interface() {
@@ -304,21 +304,20 @@ void interface() {
 }
 ```
 
-### Rendering
+## Rendering
 
-Low Health Warning
+Low-health warning
 
 ![1](https://shih.app/blog/assets/vpet/IMG_2548-17kba5z-e1448962969240.jpg)
 
-Pet is not happy (need to play with it more)
+The pet is unhappy (I need to play with it more)
 
 ![2](https://shih.app/blog/assets/vpet/IMG_2549-1mayht9-e1448962925118.jpg)
 
-Pet died
+The pet died
 
 ![3](https://shih.app/blog/assets/vpet/IMG_0211-1viq6n4-e1448962987425.jpg)
 
-### Video
+## Video
 
-<iframe src="https://www.youtube.com/embed/HkHL1tuW8uY
-" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/HkHL1tuW8uY" title="Mini Virtual Pet demo" width="640" height="564" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
