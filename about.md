@@ -9,7 +9,7 @@ image: https://shih.app/social-card.png
 This user is a carbon-based life form.<br/>
 This user has a <a style="color: #000; text-decoration:underline;" href="https://shih.app/blog/assets/me.png" data-analytics-event="about_self_portrait_click"> self portrait</a>.<br/>
 This user listens to techno.<br/>
-This user enjoys bouldering.<br/>
+This user enjoys 🏃🏻‍♂️🧗‍♂️🛹.<br/>
 This user hates pickles.
 </p>
 
