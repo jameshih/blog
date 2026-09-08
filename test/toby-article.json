@@ -1,0 +1,29 @@
+{
+  "baseline": "72808ef9344f0705af5770d918134af2a343d97d",
+  "articleWithoutSTLBlocksSha256": "f6d3d5314ce54461f736cd89006040a236816e37ac4f679e05168f55effdfb84",
+  "otherIframes": [
+    "https://www.youtube.com/embed/gfIM5SOlD3k",
+    "https://www.youtube.com/embed/f2849jXubVM"
+  ],
+  "images": [
+    "https://shih.app/blog/assets/toby/s1.jpg",
+    "https://shih.app/blog/assets/toby/s2.jpg",
+    "https://shih.app/blog/assets/toby/1.jpg",
+    "https://shih.app/blog/assets/toby/2.jpg",
+    "https://shih.app/blog/assets/toby/3.jpg",
+    "https://shih.app/blog/assets/toby/4.jpg",
+    "https://shih.app/blog/assets/toby/f1.png",
+    "https://shih.app/blog/assets/toby/f2.png",
+    "https://shih.app/blog/assets/toby/f3.png",
+    "https://shih.app/blog/assets/toby/b1.png",
+    "https://shih.app/blog/assets/toby/b2.png",
+    "https://shih.app/blog/assets/toby/b3.png",
+    "https://shih.app/blog/assets/toby/IMG_0226-15fzuu7.jpg",
+    "https://shih.app/blog/assets/toby/IMG_0231-17um6ht-768x1024.jpg",
+    "https://shih.app/blog/assets/toby/IMG_0287-1wyk153-768x1024.jpg",
+    "https://shih.app/blog/assets/toby/i1.png",
+    "https://shih.app/blog/assets/toby/i2.png",
+    "https://shih.app/blog/assets/toby/r1.png",
+    "https://shih.app/blog/assets/toby/d.png"
+  ]
+}

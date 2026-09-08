@@ -43,6 +43,7 @@ exclude:
   - Gemfile.lock
   - script
   - node_modules
+  - test
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

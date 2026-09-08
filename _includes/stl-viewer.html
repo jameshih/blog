@@ -1,0 +1,15 @@
+<figure class="stl-viewer" data-stl-src="{{ '/assets/toby/stl/' | append: include.model | append: '.stl' | relative_url }}" aria-labelledby="{{ include.model }}-caption">
+  <figcaption id="{{ include.model }}-caption">{{ include.label | escape }}</figcaption>
+  <div class="stl-viewer__stage" aria-busy="false">
+    <p class="stl-viewer__status" role="status">3D preview requires JavaScript and WebGL. You can download the STL below.</p>
+  </div>
+  <div class="stl-viewer__controls" role="group" aria-label="{{ include.label | escape }} view controls" aria-describedby="{{ include.model }}-help" hidden>
+    <button type="button" data-action="left" aria-label="Rotate left" title="Rotate left (Left arrow)"><img src="{{ '/assets/vendor/lucide-0.468.0/rotate-ccw.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></button>
+    <button type="button" data-action="right" aria-label="Rotate right" title="Rotate right (Right arrow)"><img src="{{ '/assets/vendor/lucide-0.468.0/rotate-cw.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></button>
+    <button type="button" data-action="in" aria-label="Zoom in" title="Zoom in (+)"><img src="{{ '/assets/vendor/lucide-0.468.0/zoom-in.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></button>
+    <button type="button" data-action="out" aria-label="Zoom out" title="Zoom out (−)"><img src="{{ '/assets/vendor/lucide-0.468.0/zoom-out.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></button>
+    <button type="button" data-action="reset" aria-label="Reset view" title="Reset view (Home)"><img src="{{ '/assets/vendor/lucide-0.468.0/maximize.svg' | relative_url }}" width="20" height="20" alt="" aria-hidden="true"></button>
+  </div>
+  <p class="stl-viewer__help visually-hidden" id="{{ include.model }}-help">Drag to rotate · Scroll or pinch to zoom · Arrow keys rotate · +/− zoom · Home resets</p>
+  <a class="stl-viewer__download" href="{{ '/assets/toby/stl/' | append: include.model | append: '.stl' | relative_url }}" download>Download STL<span class="visually-hidden">: {{ include.label | escape }}</span></a>
+</figure>

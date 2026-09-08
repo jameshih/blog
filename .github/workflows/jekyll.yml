@@ -36,6 +36,8 @@ jobs:
           JEKYLL_ENV: production
       - name: Validate generated HTML
         run: bundle exec htmlproofer ./_site --disable-external --ignore-urls '/assets/' --swap-urls '^/blog/:/'
+      - name: Validate STL assets and article regression
+        run: node --test test/stl-assets.mjs
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5

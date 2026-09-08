@@ -1,0 +1,331 @@
+{
+  "url": "http://127.0.0.1:4009/blog/toby-the-robo-dog",
+  "browser": "152.0.7977.76",
+  "sourceSha256": {
+    "_includes/stl-viewer.html": "c797adcd7b2f2c7d6dd466914e74daf51642480c1a96ef6e13b1a69be72745f7",
+    "assets/stl-viewer.css": "1a23dff3e0e4374982fc4227c33f5784efc35017b8e7c239110bb50adf97a3d1",
+    "assets/js/stl-viewer.js": "070f79bb7c775fe0350bec67ac7c64b83aa765b0b1bea3f1d9b156381b664012",
+    "assets/js/stl-viewer-scene.js": "a59fc72fd6792dba5bf6553adfe9072f232291d755e338c569fece394daee378",
+    "assets/vendor/lucide-0.468.0/manifest.json": "bd01a6b2476ee47b96fbc48c34f5b343623abaaebc32abb9e5e5257490fff30f",
+    "assets/vendor/three-r180/manifest.json": "8f1c560b412e5e6d924cb69203c17478efd8382b2433bcb347dda9e776914e1b",
+    "assets/toby/stl/manifest.json": "e635720d8646f3dec1f29c8c73d172b3372ee2876bf2dbda28f70dfd7434250a",
+    "_posts/2015-12-19-toby-the-robo-dog.md": "ac5ff168721f195adcc48db0880143160b9ebc31a58107c9a14c53c6b82dd974"
+  },
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "deviceScaleFactor": 1,
+      "models": [
+        {
+          "id": "servo-enclosure-test-1",
+          "frames": 2,
+          "triangles": 1802,
+          "coloredPixels": 40876,
+          "hash": 1165047388,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            132,
+            68,
+            438,
+            286
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "servo-enclosure-test-2",
+          "frames": 4,
+          "triangles": 2596,
+          "coloredPixels": 39300,
+          "hash": 726400546,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            132,
+            68,
+            438,
+            286
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "servo-enclosure-test-3",
+          "frames": 2,
+          "triangles": 1420,
+          "coloredPixels": 37048,
+          "hash": 3330504476,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            132,
+            70,
+            436,
+            284
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "leg-test-1",
+          "frames": 2,
+          "triangles": 692,
+          "coloredPixels": 28088,
+          "hash": 1599089576,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            218,
+            86,
+            446,
+            278
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "leg-test-2-left",
+          "frames": 2,
+          "triangles": 906,
+          "coloredPixels": 22256,
+          "hash": 1991011122,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            218,
+            98,
+            446,
+            270
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "leg-test-2-right",
+          "frames": 2,
+          "triangles": 950,
+          "coloredPixels": 20064,
+          "hash": 3182376960,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            144,
+            134,
+            446,
+            270
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "unibody-frame",
+          "frames": 2,
+          "triangles": 7272,
+          "coloredPixels": 25328,
+          "hash": 3337752246,
+          "width": 598,
+          "height": 398,
+          "bounds": [
+            152,
+            102,
+            466,
+            256
+          ],
+          "iconToolbarAndHiddenHelp": true
+        }
+      ],
+      "interactions": {
+        "initial": 1165047388,
+        "dragged": 1837090027,
+        "zoomed": 613088516,
+        "reset": true,
+        "keyboard": true,
+        "buttons": true,
+        "idleFramesStable": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "offscreenCleanupAndReturn": true,
+      "modelRequests": [
+        "http://127.0.0.1:4009/blog/assets/toby/stl/servo-enclosure-test-1.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/servo-enclosure-test-2.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/servo-enclosure-test-3.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/leg-test-1.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/leg-test-2-left.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/leg-test-2-right.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/unibody-frame.stl"
+      ]
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "models": [
+        {
+          "id": "servo-enclosure-test-1",
+          "frames": 2,
+          "triangles": 1802,
+          "coloredPixels": 54940,
+          "hash": 44070739,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            154,
+            78,
+            510,
+            332
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "servo-enclosure-test-2",
+          "frames": 2,
+          "triangles": 2596,
+          "coloredPixels": 52848,
+          "hash": 1634580455,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            154,
+            78,
+            510,
+            332
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "servo-enclosure-test-3",
+          "frames": 2,
+          "triangles": 1420,
+          "coloredPixels": 49876,
+          "hash": 3580142462,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            154,
+            82,
+            506,
+            330
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "leg-test-1",
+          "frames": 2,
+          "triangles": 692,
+          "coloredPixels": 37796,
+          "hash": 2007696363,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            254,
+            98,
+            518,
+            324
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "leg-test-2-left",
+          "frames": 2,
+          "triangles": 906,
+          "coloredPixels": 29996,
+          "hash": 2327128561,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            254,
+            114,
+            520,
+            312
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "leg-test-2-right",
+          "frames": 2,
+          "triangles": 950,
+          "coloredPixels": 27012,
+          "hash": 294801256,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            168,
+            156,
+            520,
+            312
+          ],
+          "iconToolbarAndHiddenHelp": true
+        },
+        {
+          "id": "unibody-frame",
+          "frames": 2,
+          "triangles": 7272,
+          "coloredPixels": 34076,
+          "hash": 1961961290,
+          "width": 696,
+          "height": 462,
+          "bounds": [
+            176,
+            118,
+            544,
+            296
+          ],
+          "iconToolbarAndHiddenHelp": true
+        }
+      ],
+      "interactions": {
+        "initial": 44070739,
+        "dragged": 3635482300,
+        "zoomed": 4122786834,
+        "reset": true,
+        "keyboard": true,
+        "buttons": true,
+        "idleFramesStable": true
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "offscreenCleanupAndReturn": true,
+      "modelRequests": [
+        "http://127.0.0.1:4009/blog/assets/toby/stl/servo-enclosure-test-1.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/servo-enclosure-test-2.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/servo-enclosure-test-3.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/leg-test-1.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/leg-test-2-left.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/leg-test-2-right.stl",
+        "http://127.0.0.1:4009/blog/assets/toby/stl/unibody-frame.stl"
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "scenario": "model-404",
+      "visibleMessage": true,
+      "downloadFallback": true
+    },
+    {
+      "scenario": "invalid-model",
+      "visibleMessage": true,
+      "downloadFallback": true
+    },
+    {
+      "scenario": "module-unavailable",
+      "visibleMessage": true,
+      "downloadFallback": true
+    },
+    {
+      "scenario": "webgl-unavailable",
+      "visibleMessage": true,
+      "downloadFallback": true
+    },
+    {
+      "scenario": "javascript-disabled",
+      "visibleMessage": true,
+      "downloadFallback": true
+    }
+  ]
+}
