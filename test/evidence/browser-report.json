@@ -1,6 +1,16 @@
 {
   "url": "http://127.0.0.1:4009/blog/toby-the-robo-dog",
   "browser": "152.0.7977.76",
+  "sourceSha256": {
+    "_includes/stl-viewer.html": "c797adcd7b2f2c7d6dd466914e74daf51642480c1a96ef6e13b1a69be72745f7",
+    "assets/stl-viewer.css": "1a23dff3e0e4374982fc4227c33f5784efc35017b8e7c239110bb50adf97a3d1",
+    "assets/js/stl-viewer.js": "070f79bb7c775fe0350bec67ac7c64b83aa765b0b1bea3f1d9b156381b664012",
+    "assets/js/stl-viewer-scene.js": "a59fc72fd6792dba5bf6553adfe9072f232291d755e338c569fece394daee378",
+    "assets/vendor/lucide-0.468.0/manifest.json": "bd01a6b2476ee47b96fbc48c34f5b343623abaaebc32abb9e5e5257490fff30f",
+    "assets/vendor/three-r180/manifest.json": "8f1c560b412e5e6d924cb69203c17478efd8382b2433bcb347dda9e776914e1b",
+    "assets/toby/stl/manifest.json": "e635720d8646f3dec1f29c8c73d172b3372ee2876bf2dbda28f70dfd7434250a",
+    "_posts/2015-12-19-toby-the-robo-dog.md": "ac5ff168721f195adcc48db0880143160b9ebc31a58107c9a14c53c6b82dd974"
+  },
   "viewports": [
     {
       "name": "desktop",
@@ -23,11 +33,12 @@
             68,
             438,
             286
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "servo-enclosure-test-2",
-          "frames": 2,
+          "frames": 4,
           "triangles": 2596,
           "coloredPixels": 39300,
           "hash": 726400546,
@@ -38,7 +49,8 @@
             68,
             438,
             286
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "servo-enclosure-test-3",
@@ -53,7 +65,8 @@
             70,
             436,
             284
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "leg-test-1",
@@ -68,7 +81,8 @@
             86,
             446,
             278
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "leg-test-2-left",
@@ -83,7 +97,8 @@
             98,
             446,
             270
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "leg-test-2-right",
@@ -98,7 +113,8 @@
             134,
             446,
             270
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "unibody-frame",
@@ -113,7 +129,8 @@
             102,
             466,
             256
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         }
       ],
       "interactions": {
@@ -161,7 +178,8 @@
             78,
             510,
             332
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "servo-enclosure-test-2",
@@ -176,7 +194,8 @@
             78,
             510,
             332
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "servo-enclosure-test-3",
@@ -191,7 +210,8 @@
             82,
             506,
             330
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "leg-test-1",
@@ -206,7 +226,8 @@
             98,
             518,
             324
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "leg-test-2-left",
@@ -221,7 +242,8 @@
             114,
             520,
             312
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "leg-test-2-right",
@@ -236,7 +258,8 @@
             156,
             520,
             312
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         },
         {
           "id": "unibody-frame",
@@ -251,7 +274,8 @@
             118,
             544,
             296
-          ]
+          ],
+          "iconToolbarAndHiddenHelp": true
         }
       ],
       "interactions": {

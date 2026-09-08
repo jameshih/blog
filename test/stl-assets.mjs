@@ -34,7 +34,7 @@ test('seven original pinned models have distinct, verified binary geometry', () 
   }
 });
 
-test('vendored Three.js files match their manifest and resolve imports locally', () => {
+test('vendored Three.js and Lucide files match pinned manifests and resolve locally', () => {
   const root = 'assets/vendor/three-r180/';
   const files = JSON.parse(read(root + 'manifest.json'));
   assert.equal(files.length, 5);
@@ -53,6 +53,17 @@ test('vendored Three.js files match their manifest and resolve imports locally',
     }
   }
   assert.match(read(root + 'LICENSE'), /MIT License/);
+  const iconsRoot = 'assets/vendor/lucide-0.468.0/';
+  const icons = JSON.parse(read(iconsRoot + 'manifest.json'));
+  assert.equal(icons.length, 6);
+  assert.deepEqual(icons.map(icon => icon.file).sort(), ['LICENSE', 'maximize.svg', 'rotate-ccw.svg', 'rotate-cw.svg', 'zoom-in.svg', 'zoom-out.svg']);
+  for (const icon of icons) {
+    assert.match(icon.source, /^https:\/\/raw\.githubusercontent\.com\/lucide-icons\/lucide\/f12b0de177fbc2a6795e99be065887e72b237123\//);
+    assert.equal(sha(readFileSync(iconsRoot + icon.file)), icon.sha256);
+    if (icon.file.endsWith('.svg')) assert.equal(sha(readFileSync(site + '/' + iconsRoot + icon.file)), icon.sha256);
+  }
+  assert.match(read(iconsRoot + 'LICENSE'), /ISC License/);
+  assert.match(read(iconsRoot + 'LICENSE'), /Feather \(MIT\)/);
 });
 
 test('all article prose, code and other media are unchanged', () => {
@@ -76,6 +87,16 @@ test('built page serves seven accessible previews, original downloads and module
   assert.equal((html.match(/<figure class="stl-viewer"/g) || []).length, 7);
   assert.equal((html.match(/role="status"/g) || []).length, 7);
   assert.equal((html.match(/aria-busy="false"/g) || []).length, 7);
+  assert.equal((html.match(/class="stl-viewer__help visually-hidden"/g) || []).length, 7);
+  const controls = [...html.matchAll(/<button type="button" data-action="([^"]+)"([^>]*)>(.*?)<\/button>/g)];
+  assert.equal(controls.length, 35);
+  for (const [, action, attributes, content] of controls) {
+    assert.match(attributes, /aria-label="[^"]+"/);
+    assert.match(attributes, /title="[^"]+"/);
+    assert.match(content, /^<img [^>]+alt="" aria-hidden="true"\s*\/?>$/);
+    const icon = { left: 'rotate-ccw', right: 'rotate-cw', in: 'zoom-in', out: 'zoom-out', reset: 'maximize' }[action];
+    assert.ok(content.includes(`src="${base}/assets/vendor/lucide-0.468.0/${icon}.svg"`));
+  }
   for (const model of models) {
     const url = `${base}/${model.file}`;
     assert.ok(html.includes(`data-stl-src="${url}"`));

@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const url = process.env.STL_TEST_URL || 'http://127.0.0.1:4009/blog/toby-the-robo-dog';
@@ -15,7 +16,14 @@ const browser = await chromium.launch({
   chromiumSandbox: true,
   ignoreDefaultArgs: ['--enable-unsafe-swiftshader', '--unsafely-disable-devtools-self-xss-warnings']
 });
-const report = { url, browser: browser.version(), viewports: [], failures: [] };
+const sourceFiles = [
+  '_includes/stl-viewer.html', 'assets/stl-viewer.css',
+  'assets/js/stl-viewer.js', 'assets/js/stl-viewer-scene.js',
+  'assets/vendor/lucide-0.468.0/manifest.json', 'assets/vendor/three-r180/manifest.json',
+  'assets/toby/stl/manifest.json', '_posts/2015-12-19-toby-the-robo-dog.md'
+];
+const sourceSha256 = Object.fromEntries(sourceFiles.map(file => [file, createHash('sha256').update(readFileSync(file)).digest('hex')]));
+const report = { url, browser: browser.version(), sourceSha256, viewports: [], failures: [] };
 
 // Observe real WebGL draw calls and pixels immediately after the GPU draws.
 // No app state, renderer, geometry, network response or canvas is mocked.
@@ -112,10 +120,36 @@ try {
     assert.deepEqual(await page.locator('iframe').evaluateAll(nodes => nodes.map(n => n.src)), baseline.otherIframes);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'no horizontal overflow');
     const modeReport = { name, ...options, models: [], interactions: {}, consoleErrors: errors, pageErrors };
+    const initialHeights = await page.locator('.stl-viewer').evaluateAll(elements => elements.map(el => el.getBoundingClientRect().height));
     for (const [index, model] of models.entries()) {
       console.log(`${name}: render ${model.id}`);
       const figure = await ready(page, index);
       const pixels = await proof(page, model.id);
+      const ui = await figure.evaluate(el => {
+        const help = el.querySelector('.stl-viewer__help');
+        const helpStyle = getComputedStyle(help);
+        return {
+          height: el.getBoundingClientRect().height,
+          description: el.querySelector('canvas').getAttribute('aria-describedby'),
+          helpId: help.id, helpText: help.textContent,
+          clippedHelp: helpStyle.position === 'absolute' && helpStyle.clip === 'rect(0px, 0px, 0px, 0px)' && helpStyle.width === '1px' && helpStyle.height === '1px',
+          buttons: [...el.querySelectorAll('button')].map(button => ({
+            label: button.getAttribute('aria-label'), title: button.title, text: button.textContent.trim(),
+            width: button.getBoundingClientRect().width, height: button.getBoundingClientRect().height,
+            iconLoaded: button.querySelector('img').complete && button.querySelector('img').naturalWidth > 0
+          }))
+        };
+      });
+      assert.ok(ui.clippedHelp, 'usage instructions are screen-reader-only');
+      assert.equal(ui.description, ui.helpId, 'canvas retains accessible instructions');
+      assert.match(ui.helpText, /Arrow keys rotate/);
+      assert.ok(Math.abs(ui.height - initialHeights[index]) < 1, 'viewer height stays stable when toolbar activates');
+      for (const button of ui.buttons) {
+        assert.equal(button.text, '', 'toolbar is icon-only');
+        assert.ok(button.label && button.title.startsWith(button.label));
+        assert.equal(button.width, 44); assert.equal(button.height, 44);
+        assert.ok(button.iconLoaded, 'official local SVG loads');
+      }
       assert.equal(pixels.triangles, model.triangles, `${name} ${model.id} triangles`);
       assert.ok(pixels.coloredPixels > pixels.width * pixels.height * .005, `${model.id} visible geometry`);
       const [minX, minY, maxX, maxY] = pixels.bounds;
@@ -124,7 +158,7 @@ try {
       assert.ok(Math.abs(stage.width / stage.height - 1.5) < .02, 'stable 3:2 frame');
       assert.ok(pixels.width <= stage.width * 2, 'pixel ratio capped at 2');
       await figure.screenshot({ path: `${output}/${name}-${model.id}.png` });
-      modeReport.models.push({ id: model.id, ...pixels });
+      modeReport.models.push({ id: model.id, ...pixels, iconToolbarAndHiddenHelp: true });
     }
     const figure = await ready(page, 0), canvas = figure.locator('canvas');
     await figure.getByRole('button', { name: 'Reset view' }).click();

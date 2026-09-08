@@ -1,0 +1,32 @@
+[
+  {
+    "file": "rotate-ccw.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/f12b0de177fbc2a6795e99be065887e72b237123/icons/rotate-ccw.svg",
+    "sha256": "622685386ab4017eabfde01cd74550a20b1924df233b353f73b6b155371f2afd"
+  },
+  {
+    "file": "rotate-cw.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/f12b0de177fbc2a6795e99be065887e72b237123/icons/rotate-cw.svg",
+    "sha256": "ddcfe6d87240475946935e77411cd4d15a06f3d28a9b921bafed224ebe953668"
+  },
+  {
+    "file": "zoom-in.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/f12b0de177fbc2a6795e99be065887e72b237123/icons/zoom-in.svg",
+    "sha256": "91206ae20013e2c84f2f5d09db5a7200f11698a84fc4e857b06fab2ce7c933f1"
+  },
+  {
+    "file": "zoom-out.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/f12b0de177fbc2a6795e99be065887e72b237123/icons/zoom-out.svg",
+    "sha256": "28e7849b55bb9b34cb24be83b4e8ef58f2ae164fc451fbd60e026bfb507d2921"
+  },
+  {
+    "file": "maximize.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/f12b0de177fbc2a6795e99be065887e72b237123/icons/maximize.svg",
+    "sha256": "1f790856b0de805ab62e871609f1990b89d227d472022e57a11fde015aad4826"
+  },
+  {
+    "file": "LICENSE",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/f12b0de177fbc2a6795e99be065887e72b237123/LICENSE",
+    "sha256": "1e7290b35280a048667bbf0ebabac1c7fd52a75300e8b2946ac165715997f2bc"
+  }
+]
