@@ -1,0 +1,65 @@
+[
+  {
+    "id": "servo-enclosure-test-1",
+    "label": "servo enclosure test 1",
+    "file": "assets/toby/stl/servo-enclosure-test-1.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/servo%20enclosure/servo%20enclosure%20test%201.stl",
+    "bytes": 90184,
+    "triangles": 1802,
+    "sha256": "39f05779fdcb4c7cbb7bc02dd223bd84ee13b0339063953e4624ba4d67fce0d7"
+  },
+  {
+    "id": "servo-enclosure-test-2",
+    "label": "servo enclosure test 2",
+    "file": "assets/toby/stl/servo-enclosure-test-2.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/servo%20enclosure/servo%20enclosure%20test%202.stl",
+    "bytes": 129884,
+    "triangles": 2596,
+    "sha256": "f724bc15abd95e1a7f108edd8ee58571c150ffeeb1053d4a6f526c74965e1288"
+  },
+  {
+    "id": "servo-enclosure-test-3",
+    "label": "servo enclosure test 3",
+    "file": "assets/toby/stl/servo-enclosure-test-3.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/servo%20enclosure/servo%20enclosure%20test%203.stl",
+    "bytes": 71084,
+    "triangles": 1420,
+    "sha256": "f29f3447fe2c321b928a0f48d91ce106a5d2ba1635fe15da7805991319df46f1"
+  },
+  {
+    "id": "leg-test-1",
+    "label": "leg test 1",
+    "file": "assets/toby/stl/leg-test-1.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/leg/leg%20test.stl",
+    "bytes": 34684,
+    "triangles": 692,
+    "sha256": "90665cb405badf8a9f29948b12aedbd9f64d20cb304f0b0d3c27bfe85a3b0b44"
+  },
+  {
+    "id": "leg-test-2-left",
+    "label": "leg test 2 left",
+    "file": "assets/toby/stl/leg-test-2-left.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/leg/leg%20test%202%20left.stl",
+    "bytes": 45384,
+    "triangles": 906,
+    "sha256": "1711644496863162a46d2848d2fa9a8d90420c2cf8ab4ae97018c375978849b1"
+  },
+  {
+    "id": "leg-test-2-right",
+    "label": "leg test 2 right",
+    "file": "assets/toby/stl/leg-test-2-right.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/leg/leg%20test%202%20right.stl",
+    "bytes": 47584,
+    "triangles": 950,
+    "sha256": "bfcaa58638701604beb5b5aae5ccf01d14285087e64c79b0eb3dcfa2ecf1d523"
+  },
+  {
+    "id": "unibody-frame",
+    "label": "Unibody frame",
+    "file": "assets/toby/stl/unibody-frame.stl",
+    "source": "https://raw.githubusercontent.com/jameshih/Virtual-Robotics/c1e94f7eff626c218e73162bd1c1a5e374654b01/Progress%203D%20print%20STL/body%20frame/robot%20unibody%20enclosure%20test%201.stl",
+    "bytes": 363684,
+    "triangles": 7272,
+    "sha256": "8723ee6677ca8ee01c8965ac5e445ec347cda82c7cd873071cb9c69c37310072"
+  }
+]

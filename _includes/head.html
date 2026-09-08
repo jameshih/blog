@@ -19,3 +19,8 @@
 <link rel="apple-touch-icon" href="{{ '/assets/touch-icon.png' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/core.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | absolute_url }}">
+
+{% if page.stl_viewer %}
+<link rel="stylesheet" href="{{ '/assets/stl-viewer.css' | relative_url }}">
+<script defer src="{{ '/assets/js/stl-viewer.js' | relative_url }}"></script>
+{% endif %}
